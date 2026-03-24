@@ -1,0 +1,404 @@
+review_id,analysis_name,k,scale,theta,ci_lo,ci_hi,pi_lo,pi_hi,tau2,I2,pi_ci_ratio,p_value,discordance
+CD000028,Cause of cardiovascular mortality,21,ratio,-0.2945,-0.4178,-0.1712,-0.4262,-0.1629,0,0,1.07,3e-06,CONCORDANT_SIG
+CD000143,Extubation failure,12,ratio,-0.3594,-0.7761,0.0574,-1.6785,0.9598,0.3053,70.0,3.17,0.091012,CONCORDANT_NS
+CD000219,Pain,21,ratio,-0.2367,-0.3671,-0.1063,-0.6043,0.1309,0.0264,35.7,2.82,0.000374,FALSE_REASSURANCE
+CD000478,Failure to maintain remission - all trials,13,ratio,-0.3794,-0.5407,-0.2181,-0.5606,-0.1983,0,0,1.12,4e-06,CONCORDANT_SIG
+CD000547,Individual adverse events,48,ratio,1.0673,0.7305,1.4041,-0.7496,2.8841,0.7851,70.7,5.39,0.0,FALSE_REASSURANCE
+CD001155,"Alendronate vs Other active agent, Secondary",59,ratio,-0.1339,-0.2957,0.0279,-0.8798,0.6119,0.1319,40.5,4.61,0.104703,CONCORDANT_NS
+CD001321,Symptomatic UTI: culture-verified UTI,27,ratio,-0.3496,-0.5272,-0.1721,-1.0447,0.3454,0.1057,66.2,3.91,0.000113,FALSE_REASSURANCE
+CD001396,Response rates,30,ratio,0.8946,0.7109,1.0784,0.3285,1.4607,0.0676,28.4,3.08,0.0,CONCORDANT_SIG
+CD001431,Participation in decision-making - all studies,61,ratio,-0.023,-0.0997,0.0536,-0.4069,0.3608,0.0353,64.1,5.01,0.55549,CONCORDANT_NS
+CD001533,Adverse events,21,ratio,-0.0658,-0.2113,0.0797,-0.3443,0.2126,0.0122,16.1,1.91,0.375342,CONCORDANT_NS
+CD001552,Clinical improvement at long-term follow-up: over 3 months,3,ratio,0.743,0.0409,1.4452,-7.4168,8.9029,0.2841,79.1,11.62,0.038075,FALSE_REASSURANCE
+CD001703,Non-specific low back pain and spine-related leg pain: withdrawals due to adverse events,21,ratio,0.824,0.535,1.113,0.5154,1.1326,0,0,1.07,0.0,CONCORDANT_SIG
+CD001797,Significant improvement in disability within 6 weeks,5,ratio,0.8166,0.4873,1.146,0.2819,1.3514,0,0,1.62,1e-06,CONCORDANT_SIG
+CD001837,Quit at longest follow-up (6 + months),49,ratio,0.2466,0.1648,0.3284,-0.1275,0.6207,0.0328,45.7,4.57,0.0,FALSE_REASSURANCE
+CD001909,≥ 50% reduction in seizure frequency (intention-to-treat analysis),25,ratio,0.5526,0.4016,0.7036,0.3932,0.712,0,0,1.06,0.0,CONCORDANT_SIG
+CD001920,Functional task training compared to other approaches: Adverse events,4,ratio,0.2209,-0.1494,0.5913,-0.592,1.0339,0,0,2.2,0.242255,CONCORDANT_NS
+CD002042,Participants exposed to blood transfusion by clinical specialties,53,ratio,-0.5324,-0.6263,-0.4385,-1.182,0.1172,0.1024,96.3,6.92,0.0,FALSE_REASSURANCE
+CD002052,All‐cause mortality until hospital discharge,3,ratio,-0.2223,-0.8967,0.4521,-4.5943,4.1496,0,0,6.48,0.518218,CONCORDANT_NS
+CD002112,Number of children achieving 14 consecutive dry nights by the end of treatment,21,ratio,0.2866,0.1629,0.4104,-0.0847,0.658,0.0275,42.2,3.0,6e-06,FALSE_REASSURANCE
+CD002115,Number of participants with self-reported improvement in constipation (dichotomous),5,ratio,0.791,0.2953,1.2867,-0.8535,2.4356,0.2031,74.8,3.32,0.001762,FALSE_REASSURANCE
+CD002122,Adverse effects,56,ratio,-0.2112,-0.4325,0.0101,-1.4095,0.9871,0.3445,82.0,5.41,0.061462,CONCORDANT_NS
+CD002203,Adverse effects of antibiotic treatment,50,ratio,-0.1308,-0.2837,0.022,-0.7981,0.5364,0.104,38.8,4.37,0.093367,CONCORDANT_NS
+CD002243,28-day all-cause mortality - sensitivity analysis based on methodological quality,180,ratio,-0.099,-0.1358,-0.0622,-0.3098,0.1119,0.0111,25.8,5.73,0.0,FALSE_REASSURANCE
+CD002290,Relapse,16,ratio,-0.4903,-0.694,-0.2866,-1.2623,0.2817,0.1187,81.4,3.79,2e-06,FALSE_REASSURANCE
+CD002303,Reulceration,5,ratio,0.438,0.2358,0.6402,-0.1782,1.0542,0.0268,57.2,3.05,2.2e-05,FALSE_REASSURANCE
+CD002971,Necrotising enterocolitis,10,ratio,-0.599,-0.9863,-0.2116,-1.123,-0.075,0.0126,2.9,1.35,0.00244,CONCORDANT_SIG
+CD003129,Treatment response,3,ratio,0.5131,0.1908,0.8353,-1.576,2.6022,0,0,6.48,0.001806,FALSE_REASSURANCE
+CD003216,Incidence of pressure ulcers,4,ratio,-0.2439,-0.5821,0.0944,-1.0832,0.5955,0.0083,4.2,2.48,0.157659,CONCORDANT_NS
+CD003218,Proportion of participants with at least 1 adverse event,5,ratio,0.5303,-0.2867,1.3473,-0.7963,1.8569,0,0,1.62,0.203311,CONCORDANT_NS
+CD003331,All-cause mortality up to 12 months' follow-up,35,ratio,-0.0756,-0.3401,0.1889,-0.3501,0.1989,0,0,1.04,0.575297,CONCORDANT_NS
+CD003333,All-cause mortality,4,ratio,0.0043,-0.1176,0.1263,-0.2634,0.2721,0,0,2.2,0.944437,CONCORDANT_NS
+CD003357,Live birth rate per woman,7,ratio,0.5704,0.1293,1.0116,-0.77,1.9109,0.2212,66.9,3.04,0.011258,FALSE_REASSURANCE
+CD003376,"Treatment versus reference, secondary",15,ratio,-0.277,-0.7046,0.1506,-0.7483,0.1943,0,0,1.1,0.204173,CONCORDANT_NS
+CD003414,Clinical pregnancy rate per woman,16,ratio,-0.0898,-0.2705,0.0909,-0.2876,0.108,0,0,1.09,0.330113,CONCORDANT_NS
+CD003429,Adverse events,6,ratio,0.5499,-0.2007,1.3005,-0.5134,1.6132,0,0,1.42,0.151044,CONCORDANT_NS
+CD003477,Behaviour problems: agitation or aggression,11,difference,-0.0477,-0.2681,0.1728,-0.5801,0.4847,0.0427,31.6,2.42,0.671789,CONCORDANT_NS
+CD003511,Miscarriage (all trials),8,ratio,-0.0984,-0.2685,0.0717,-0.3108,0.1139,0,0,1.25,0.256726,CONCORDANT_NS
+CD003519,Breastfeeding 1 month to 4 months post birth,15,ratio,0.209,0.0858,0.3321,-0.1005,0.5184,0.0166,35.4,2.51,0.000883,FALSE_REASSURANCE
+CD003594,Adverse events,11,ratio,-0.6409,-1.4338,0.1519,-2.7733,1.4914,0.7249,45.7,2.69,0.113097,CONCORDANT_NS
+CD003598,Graft loss,21,ratio,-0.1686,-0.2844,-0.0529,-0.2922,-0.0451,0,0,1.07,0.004283,CONCORDANT_SIG
+CD003743,Infection up to discharge from home support or hospital,6,ratio,-0.998,-1.5471,-0.4489,-1.7759,-0.2201,0,0,1.42,0.000368,CONCORDANT_SIG
+CD003774,CMV disease,42,ratio,-0.8892,-1.0374,-0.741,-1.042,-0.7364,0,0,1.03,0.0,CONCORDANT_SIG
+CD003833,Vascular events,4,ratio,-0.3574,-1.5437,0.8289,-2.9617,2.2469,0,0,2.2,0.554862,CONCORDANT_NS
+CD003962,Adverse events,6,ratio,-0.2292,-0.5609,0.1026,-0.7008,0.2425,0.0002,0.1,1.42,0.175746,CONCORDANT_NS
+CD004184,Overall adverse events,7,ratio,-0.1096,-0.3994,0.1802,-0.7472,0.5281,0.0397,35.9,2.2,0.458594,CONCORDANT_NS
+CD004307,Smoking cessation (subgrouped by when incentives were provided),42,ratio,0.4196,0.2829,0.5563,0.0197,0.8194,0.0343,22.5,2.93,0.0,CONCORDANT_SIG
+CD004376,Study withdrawals at final follow-up,104,ratio,-0.0254,-0.1165,0.0657,-0.1176,0.0668,0,0,1.01,0.585073,CONCORDANT_NS
+CD004406,Resolution of symptoms post-treatment (ITT analysis),6,ratio,0.1083,-0.0868,0.3033,-0.168,0.3846,0,0,1.42,0.276638,CONCORDANT_NS
+CD004417,Antibiotic use: delayed versus immediate antibiotics,17,ratio,-3.5277,-4.0638,-2.9916,-5.6982,-1.3572,0.9622,84.2,4.05,0.0,CONCORDANT_SIG
+CD004508,"Nausea or vomiting, or both (random-effects model)",6,ratio,-0.062,-0.4126,0.2887,-1.1385,1.0146,0.1183,66.6,3.07,0.729007,CONCORDANT_NS
+CD004661,Neonatal death,12,ratio,-0.0422,-0.1734,0.089,-0.1914,0.1069,0,0,1.14,0.528025,CONCORDANT_NS
+CD004667,Caesarean birth,16,ratio,-0.0926,-0.1783,-0.0069,-0.2959,0.1107,0.0071,25.1,2.37,0.034096,FALSE_REASSURANCE
+CD004703,Serious adverse events,4,ratio,-0.5376,-1.9185,0.8433,-3.569,2.4939,0,0,2.2,0.445447,CONCORDANT_NS
+CD004736,Maternal anaemia at term (Hb less than 110 g/L at 37 weeks' gestation or more) (ALL),14,ratio,-1.1842,-1.62,-0.7484,-2.6032,0.2348,0.3747,82.3,3.26,0.0,FALSE_REASSURANCE
+CD004762,Relaxation time (seconds),5,difference,-0.326,-0.548,-0.1041,-1.0291,0.377,0.036,79.3,3.17,0.00399,FALSE_REASSURANCE
+CD004871,Pain (dichotomous data; short-term): subgroup analysis by dosage,5,ratio,-0.4359,-0.7387,-0.1331,-1.4458,0.574,0.0768,66.6,3.34,0.004779,FALSE_REASSURANCE
+CD004904,Postpartum endometritis,4,ratio,0.005,-0.6846,0.6946,-1.5088,1.5189,0,0,2.2,0.988563,CONCORDANT_NS
+CD004925,Urine leak and obstruction,31,ratio,-1.0626,-1.405,-0.7202,-1.4199,-0.7053,0,0,1.04,0.0,CONCORDANT_SIG
+CD004953,Death,11,ratio,0.0023,-0.2837,0.2883,-0.655,0.6596,0.0631,32.7,2.3,0.987466,CONCORDANT_NS
+CD004992,Recurrence of pelvic pain,4,ratio,-1.8427,-2.4669,-1.2186,-3.4495,-0.236,0.038,8.7,2.57,0.0,CONCORDANT_SIG
+CD005133,Adverse events,39,ratio,-0.1025,-0.2039,-0.0011,-0.299,0.094,0.0067,7.4,1.94,0.047561,FALSE_REASSURANCE
+CD005187,Death from any cause,5,ratio,-0.3654,-0.5049,-0.2258,-0.6771,-0.0536,0.0045,17.5,2.23,0.0,CONCORDANT_SIG
+CD005343,Surgically-related adverse effects (G3+),31,ratio,-0.5631,-0.8253,-0.3009,-1.3989,0.2727,0.1491,57.0,3.19,2.6e-05,FALSE_REASSURANCE
+CD005495,Rate of cerebral palsy,9,ratio,-0.1267,-0.5287,0.2754,-0.6117,0.3584,0,0,1.21,0.536867,CONCORDANT_NS
+CD005566,Infectious complications,28,ratio,-0.1776,-0.2683,-0.0869,-0.2727,-0.0825,0,0,1.05,0.000124,CONCORDANT_SIG
+CD005582,Serious adverse events,4,ratio,0.5325,-0.7084,1.7734,-2.1916,3.2567,0,0,2.2,0.40028,CONCORDANT_NS
+CD005595,Adverse events,32,ratio,0.2041,-0.0822,0.4903,-0.0942,0.5023,0,0,1.04,0.162361,CONCORDANT_NS
+CD005951,Death from any cause by day 90,7,ratio,-0.2514,-0.5799,0.0771,-1.005,0.5022,0.0579,34.4,2.29,0.133585,CONCORDANT_NS
+CD006023,Hypercalcaemia,18,ratio,-1.2207,-1.5957,-0.8456,-2.3664,-0.0749,0.2555,49.5,3.06,0.0,CONCORDANT_SIG
+CD006027,Need for rescue medication,4,ratio,-1.3969,-2.1473,-0.6465,-4.5121,1.7183,0.3776,71.2,4.15,0.000264,FALSE_REASSURANCE
+CD006124,Perioperative complications,6,ratio,0.0204,-0.5925,0.6334,-2.0321,2.073,0.4487,80.4,3.35,0.94787,CONCORDANT_NS
+CD006140,Acceptability,8,ratio,-0.2352,-0.3668,-0.1037,-0.6212,0.1507,0.0204,85.4,2.93,0.000455,FALSE_REASSURANCE
+CD006182,Subsequent laparotomy during initial hospitalisation,4,ratio,0.8128,0.5434,1.0822,0.2215,1.4041,0,0,2.2,0.0,CONCORDANT_SIG
+CD006185,Regaining independent walking ability,78,ratio,0.5409,0.362,0.7198,-0.2915,1.3733,0.1663,28.7,4.65,0.0,FALSE_REASSURANCE
+CD006257,Death: any cause,9,ratio,-0.0901,-0.3213,0.1411,-0.5355,0.3553,0.0216,22.6,1.93,0.44505,CONCORDANT_NS
+CD006404,Other adverse events,112,ratio,-0.0351,-0.1219,0.0516,-0.4515,0.3812,0.0422,27.5,4.8,0.427331,CONCORDANT_NS
+CD006475,Sensitivity analysis: eczema by 2 years by definition of allergic disease,27,ratio,-0.1499,-0.2714,-0.0285,-0.5123,0.2125,0.0271,32.4,2.98,0.01556,FALSE_REASSURANCE
+CD006515,Mechanical complications,5,ratio,0.2932,-0.8065,1.3929,-1.4924,2.0789,0,0,1.62,0.601258,CONCORDANT_NS
+CD006536,All-cause mortality,43,ratio,-0.1616,-0.4854,0.1622,-0.4952,0.172,0,0,1.03,0.327888,CONCORDANT_NS
+CD006606,"Clinical pregnancy – all studies (odds ratio, random-effects)",4,ratio,-0.0005,-1.0969,1.0959,-4.8137,4.8128,0.9385,89.1,4.39,0.999307,CONCORDANT_NS
+CD006632,Length of hospital stay (days),23,difference,-1.1693,-1.6385,-0.7001,-2.711,0.3724,0.4923,62.5,3.29,1e-06,FALSE_REASSURANCE
+CD006689,Maternal peripheral parasitaemia at delivery (amplification techniques),5,ratio,-0.4712,-0.9012,-0.0412,-1.1694,0.227,0,0,1.62,0.031736,FALSE_REASSURANCE
+CD006712,Pain with aspiration,3,difference,0.4058,-0.1611,0.9726,-3.2692,4.0807,0,0,6.48,0.160631,CONCORDANT_NS
+CD006714,Abortion completed with intended method (defined as fetal expulsion),3,ratio,-0.0006,-0.0223,0.0211,-0.1414,0.1402,0,0,6.48,0.957088,CONCORDANT_NS
+CD006742,All-Cause Mortality,4,ratio,-0.1679,-0.4604,0.1245,-0.81,0.4741,0,0,2.2,0.260445,CONCORDANT_NS
+CD006839,Proportion of participants with clinical improvement in function compared to baseline,3,ratio,-0.0639,-0.2094,0.0817,-1.0075,0.8798,0,0,6.48,0.389812,CONCORDANT_NS
+CD006913,"Number of patients completing program - psychotherapy vs any control, all populations",29,ratio,-0.0594,-0.1049,-0.014,-0.2406,0.1218,0.0073,70.7,3.99,0.01043,FALSE_REASSURANCE
+CD006919,Clinical pregnancies all studies,19,ratio,0.4066,0.0953,0.7179,-0.3975,1.2107,0.12,26.8,2.58,0.010469,FALSE_REASSURANCE
+CD006942,Live birth or ongoing pregnancy rate per couple,4,ratio,-0.0723,-0.6234,0.4789,-2.384,2.2395,0.2096,70.2,4.19,0.797151,CONCORDANT_NS
+CD006982,Retinopathy of prematurity (stage ≥ 3),4,ratio,-0.0584,-0.8034,0.6866,-2.7381,2.6213,0.2434,43.5,3.6,0.877943,CONCORDANT_NS
+CD007024,Individual adverse events,18,ratio,0.1389,-0.0088,0.2867,-0.0209,0.2987,0,0,1.08,0.065375,CONCORDANT_NS
+CD007026,All-cause death,7,ratio,-0.0555,-0.4422,0.3312,-0.5626,0.4517,0,0,1.31,0.778525,CONCORDANT_NS
+CD007079,Preterm birth < 37 weeks' gestation,10,ratio,-0.224,-0.4354,-0.0126,-0.7613,0.3132,0.0426,55.9,2.54,0.037789,FALSE_REASSURANCE
+CD007130,Completers,26,ratio,0.0349,-0.0053,0.075,-0.095,0.1647,0.0035,47.5,3.23,0.089157,CONCORDANT_NS
+CD007156,Difficulty in swallowing,3,ratio,-1.1132,-1.7116,-0.5147,-4.9928,2.7665,0,0,6.48,0.000267,FALSE_REASSURANCE
+CD007310,Complications,7,ratio,0.292,-0.5979,1.1818,-0.8751,1.4591,0,0,1.31,0.520179,CONCORDANT_NS
+CD007374,Death,6,ratio,-0.1778,-0.9246,0.569,-1.2357,0.8801,0,0,1.42,0.640738,CONCORDANT_NS
+CD007491,Readmission to hospital after discharge from hospital at home or inpatient care (3 to 12 months' follow-up),8,ratio,0.0489,-0.2126,0.3105,-0.5916,0.6895,0.0507,41.2,2.45,0.713828,CONCORDANT_NS
+CD007569,Return to work,6,ratio,0.0815,-0.04,0.2029,-0.1498,0.3128,0.0031,11.9,1.9,0.188528,CONCORDANT_NS
+CD007572,Failure to induce clinical remission (6 to 12 weeks),10,ratio,-0.1549,-0.2264,-0.0835,-0.3717,0.0619,0.0075,64.5,3.04,2.1e-05,FALSE_REASSURANCE
+CD007639,Adverse events,5,ratio,-0.0323,-0.4833,0.4188,-1.5204,1.4558,0.1657,69.4,3.3,0.888402,CONCORDANT_NS
+CD007674,Clinical recovery or improvement - best and worst case scenario,28,ratio,0.3916,0.1641,0.6192,-0.6578,1.4411,0.2472,78.7,4.61,0.000744,FALSE_REASSURANCE
+CD007784,Major cardiovascular events,13,ratio,-0.3303,-0.4185,-0.242,-0.5412,-0.1193,0.0072,38.9,2.39,0.0,CONCORDANT_SIG
+CD007809,Number of participants reporting an adverse event,3,ratio,0.2462,-0.2533,0.7458,-2.9923,3.4848,0,0,6.48,0.334041,CONCORDANT_NS
+CD007859,Pain (analgesic consumption),3,ratio,0.1776,-0.279,0.6341,-4.4466,4.8017,0.0782,48.0,10.13,0.445925,CONCORDANT_NS
+CD007872,Estimated blood loss ≥ 500 mL,3,ratio,-0.0755,-0.2078,0.0569,-1.2353,1.0844,0.0038,22.7,8.77,0.263682,CONCORDANT_NS
+CD007895,Withdrawals due to adverse effects,3,ratio,0.1949,-1.028,1.4179,-7.7335,8.1234,0,0,6.48,0.754723,CONCORDANT_NS
+CD007896,Withdrawals due to adverse effects,35,ratio,0.8428,0.6033,1.0824,0.5942,1.0915,0,0,1.04,0.0,CONCORDANT_SIG
+CD008063,Extent of substance use,50,difference,0.1791,0.1223,0.2358,-0.0562,0.4143,0.0129,35.2,4.14,0.0,FALSE_REASSURANCE
+CD008145,Reception of DTP3 by 1 year of age,6,ratio,0.3092,0.1384,0.4799,-0.2702,0.8885,0.0359,89.4,3.39,0.000388,FALSE_REASSURANCE
+CD008165,Proportion of patients with one or more potentially inappropriate medication,13,ratio,-0.2079,-0.3921,-0.0238,-0.8585,0.4426,0.0785,83.6,3.53,0.026917,FALSE_REASSURANCE
+CD008176,Death (any cause),38,ratio,-0.0488,-0.198,0.1005,-0.2032,0.1057,0,0,1.03,0.521986,CONCORDANT_NS
+CD008237,Independent procedure completion: type of endoscopic procedure under study,6,ratio,0.4677,0.1633,0.772,-0.3586,1.2939,0.0644,53.2,2.71,0.002601,FALSE_REASSURANCE
+CD008309,Mechanical ventilation at any time,4,ratio,-0.6124,-1.1027,-0.1222,-2.1725,0.9476,0.0689,27.4,3.18,0.014352,FALSE_REASSURANCE
+CD008349,Upper limb function post intervention (composite measure),68,difference,0.2695,0.1256,0.4133,-0.6845,1.2235,0.2229,68.4,6.63,0.000241,FALSE_REASSURANCE
+CD008469,Exacerbations leading to emergency department (ED) visits: subgrouped by time frame of follow-up,11,ratio,0.0199,-0.7309,0.7707,-0.8466,0.8864,0,0,1.15,0.958543,CONCORDANT_NS
+CD008493,Atrial fibrillation,10,ratio,-0.1007,-0.2672,0.0657,-0.5448,0.3434,0.0299,53.4,2.67,0.235623,CONCORDANT_NS
+CD008552,Vegetable intake,5,ratio,0.2392,-0.385,0.8633,-1.6933,2.1717,0.2673,63.6,3.1,0.452625,CONCORDANT_NS
+CD008564,Total mortality,12,ratio,-0.1066,-0.2761,0.063,-0.3076,0.0945,0.0007,0.7,1.19,0.217939,CONCORDANT_NS
+CD008628,"Function in the long term; number of people with scores of excellent, good, or satisfactory/fair",9,ratio,0.1709,-0.1868,0.5286,-0.2606,0.6025,0,0,1.21,0.349005,CONCORDANT_NS
+CD008688,Pancreatic fistula (free definition),3,ratio,-0.0404,-0.2158,0.135,-1.1775,1.0967,0,0,6.48,0.651555,CONCORDANT_NS
+CD008709,Urinary retention,31,ratio,-0.3898,-0.7396,-0.04,-0.7549,-0.0248,0,0,1.04,0.028966,CONCORDANT_SIG
+CD008858,Participants with adverse events,63,ratio,0.7621,0.5652,0.9591,-0.4458,1.9701,0.3548,96.3,6.13,0.0,FALSE_REASSURANCE
+CD008879,Non-infectious complications,8,ratio,-0.2404,-0.4798,-0.001,-0.5393,0.0585,0,0,1.25,0.049096,FALSE_REASSURANCE
+CD008940,Participants experiencing severe adverse events,4,ratio,-0.0128,-1.3856,1.3601,-3.0266,3.0011,0,0,2.2,0.985465,CONCORDANT_NS
+CD009022,Conversion to laparoscopic (use of more than one additional port)/open surgery (rate),9,ratio,1.0835,0.3073,1.8597,0.147,2.02,0,0,1.21,0.006221,CONCORDANT_SIG
+CD009102,Intubation and mechanical ventilation in DR,5,ratio,-0.3651,-0.808,0.0778,-1.6595,0.9293,0.1144,57.1,2.92,0.106201,CONCORDANT_NS
+CD009235,Mortality,31,ratio,-0.0647,-0.1995,0.0701,-0.2053,0.0759,0,0,1.04,0.346812,CONCORDANT_NS
+CD009252,Subjective symptom of cure or improvement,14,ratio,0.1694,-0.2099,0.5486,-0.8341,1.1729,0.1747,42.3,2.65,0.381341,CONCORDANT_NS
+CD009298,Operative delivery (Subgroup analysis: nulliparous versus multiparous),11,ratio,-0.0633,-0.1904,0.0637,-0.2753,0.1487,0.0046,9.7,1.67,0.328664,CONCORDANT_NS
+CD009362,Pressure ulcer stage,27,ratio,-0.9545,-1.3017,-0.6073,-1.5796,-0.3294,0.0607,7.5,1.8,0.0,CONCORDANT_SIG
+CD009417,Adverse events of any severity or seriousness,5,ratio,0.1087,-0.2029,0.4203,-0.7276,0.945,0.0438,33.7,2.68,0.494123,CONCORDANT_NS
+CD009508,Subjective cure/improvement,10,ratio,0.8005,0.1154,1.4855,-1.1107,2.7116,0.5647,59.8,2.79,0.022013,FALSE_REASSURANCE
+CD009531,Attrition/leaving the study early,8,ratio,0.1872,-0.0572,0.4315,-0.1179,0.4922,0,0,1.25,0.133285,CONCORDANT_NS
+CD009535,All-cause death,9,ratio,-0.2262,-0.3982,-0.0541,-0.7771,0.3247,0.0466,83.7,3.2,0.009975,FALSE_REASSURANCE
+CD009609,Need for treatment escalation,8,ratio,-0.5905,-0.9444,-0.2365,-1.4392,0.2583,0.0877,42.0,2.4,0.001078,FALSE_REASSURANCE
+CD009679,Complications,24,ratio,-0.0291,-0.5149,0.4566,-1.5825,1.5242,0.4996,50.8,3.2,0.906446,CONCORDANT_NS
+CD009730,Adverse effects,10,ratio,-0.0391,-0.7563,0.678,-1.1898,1.1115,0.1151,8.4,1.6,0.914827,CONCORDANT_NS
+CD009749,Sensitivity analyses ,25,ratio,0.0594,-0.1428,0.2615,-0.154,0.2727,0,0,1.06,0.56483,CONCORDANT_NS
+CD009788,Leaving the study early,5,ratio,-0.388,-0.6955,-0.0806,-0.9938,0.2177,0.0116,6.0,1.97,0.01337,FALSE_REASSURANCE
+CD009945,50% responder,3,ratio,0.7794,0.0917,1.4672,-3.6793,5.2382,0,0,6.48,0.026336,FALSE_REASSURANCE
+CD010001,Clinical pregnancy,25,ratio,0.3713,0.2177,0.5249,-0.0192,0.7618,0.0295,21.3,2.54,2e-06,FALSE_REASSURANCE
+CD010145,(Additional table) CR until progression of the disease,9,ratio,1.2174,0.4755,1.9593,0.3223,2.1124,0,0,1.21,0.001299,CONCORDANT_SIG
+CD010189,Overall survival,6,ratio,0.0966,-0.1224,0.3156,-0.4313,0.6245,0.0237,33.7,2.41,0.387197,CONCORDANT_NS
+CD010216,Serious adverse events,7,ratio,-0.0746,-0.4011,0.252,-0.5029,0.3537,0,0,1.31,0.654421,CONCORDANT_NS
+CD010290,Incidence of OHSS per woman by urinary gonadotropins,7,ratio,0.3627,-0.2356,0.961,-0.422,1.1474,0,0,1.31,0.234829,CONCORDANT_NS
+CD010441,Incidence of perineal trauma (tears or episiotomy or both),3,ratio,-0.0598,-0.1448,0.0252,-0.6107,0.4911,0,0,6.48,0.167818,CONCORDANT_NS
+CD010533,Treatment-related mortality,3,ratio,-1.5761,-2.8341,-0.318,-9.7319,6.5798,0,0,6.48,0.014073,FALSE_REASSURANCE
+CD010583,Intra-abdominal infection,3,ratio,-0.5351,-1.6725,0.6023,-12.8042,11.734,0.5956,66.1,10.79,0.356466,CONCORDANT_NS
+CD010779,Passive range of motion with standardised force ,5,difference,0.0629,-0.2607,0.3865,-0.6975,0.8233,0.0298,21.8,2.35,0.703381,CONCORDANT_NS
+CD010856,"Sensitivity analysis - all included studies: change in the number of decayed, missing or filled permanent teeth (DMFT)",12,difference,0.983,0.5427,1.4233,-0.7435,2.7096,0.55,98.4,3.92,1.2e-05,FALSE_REASSURANCE
+CD010966,Most common adverse events (occurring in at least 10% of participants in either group),67,ratio,-0.2072,-0.3566,-0.0579,-0.3594,-0.0551,0,0,1.02,0.006535,CONCORDANT_SIG
+CD011039,Morbidity (by type),5,ratio,-0.2753,-0.8192,0.2686,-2.0862,1.5356,0.2468,77.0,3.33,0.321127,CONCORDANT_NS
+CD011044,Response rates,26,ratio,0.5725,0.3888,0.7562,-0.0128,1.1578,0.0716,37.1,3.19,0.0,FALSE_REASSURANCE
+CD011120,Tobacco use cessation,9,ratio,0.1035,-0.1405,0.3475,-0.1909,0.3979,0,0,1.21,0.405699,CONCORDANT_NS
+CD011197,Serious adverse events,6,ratio,0.2627,-0.4571,0.9824,-0.7569,1.2822,0,0,1.42,0.474417,CONCORDANT_NS
+CD011204,Proportion of all-cause discontinuations at 6 months,13,ratio,0.4369,0.2309,0.6428,-0.261,1.1347,0.0895,68.4,3.39,3.2e-05,FALSE_REASSURANCE
+CD011305,All-cause mortality at 31 to 100 days,3,ratio,0.0047,-1.2993,1.3087,-8.6458,8.6552,0.0208,1.4,6.63,0.994341,CONCORDANT_NS
+CD011330,Withdrawal due to adverse events,4,ratio,1.2931,-0.1545,2.7406,-1.8847,4.4708,0,0,2.2,0.079978,CONCORDANT_NS
+CD011381,Number of patients who discontinued treatment due to adverse effects,46,ratio,0.1924,0.0079,0.3769,-0.7788,1.1636,0.2234,68.4,5.26,0.04094,FALSE_REASSURANCE
+CD011535,Anti-IL17 versus placebo,38,ratio,3.292,2.9899,3.5942,2.2965,4.2876,0.2172,29.2,3.3,0.0,CONCORDANT_SIG
+CD011575,All-cause mortality,4,ratio,0.1216,-0.2506,0.4938,-1.4871,1.7303,0.1037,73.2,4.32,0.521955,CONCORDANT_NS
+CD011600,Pneumonia,5,ratio,0.4633,0.2881,0.6386,0.1787,0.7479,0,0,1.62,0.0,CONCORDANT_SIG
+CD011626,Adverse events,11,ratio,0.5696,-0.1283,1.2674,-0.9601,2.0993,0.3305,30.0,2.19,0.109664,CONCORDANT_NS
+CD011627,Number of participants with incontinence-associated dermatitis,8,ratio,-0.4069,-1.1437,0.3298,-2.6429,1.829,0.6937,68.8,3.03,0.278985,CONCORDANT_NS
+CD011670,Wound infection,7,ratio,-0.0183,-0.7243,0.6877,-1.8333,1.7967,0.3688,45.2,2.57,0.959413,CONCORDANT_NS
+CD011671,Delayed graft function: type of donor,17,ratio,-0.2485,-0.361,-0.1361,-0.5219,0.0249,0.0132,25.3,2.43,1.5e-05,FALSE_REASSURANCE
+CD011689,Shivering,31,ratio,1.3332,1.0836,1.5827,0.2052,2.4611,0.288,86.6,4.52,0.0,CONCORDANT_SIG
+CD011762,Major bleeding,29,ratio,-0.0351,-0.2821,0.2119,-0.5275,0.4572,0.0417,10.3,1.99,0.780358,CONCORDANT_NS
+CD011778,PPD (change from baseline (mm)); 3 months,38,difference,0.4376,0.2899,0.5852,-0.4453,1.3204,0.1838,97.4,5.98,0.0,FALSE_REASSURANCE
+CD011793,Re-exploration,13,ratio,-0.1285,-0.667,0.41,-0.7332,0.4762,0,0,1.12,0.640012,CONCORDANT_NS
+CD011841,Recurrence of central serous chorioretinopathy at 12 months (± 6),4,ratio,0.1318,-0.3206,0.5842,-1.0634,1.327,0.0239,8.6,2.64,0.568023,CONCORDANT_NS
+CD011851,Fatal cardiovascular events,4,ratio,-0.1887,-0.7472,0.3699,-1.4149,1.0375,0,0,2.2,0.507949,CONCORDANT_NS
+CD011858,Extracorporeal circuit thrombosis,3,ratio,0.4536,-0.751,1.6583,-8.232,9.1393,0.0895,5.7,7.21,0.460466,CONCORDANT_NS
+CD011866,Dropouts,28,ratio,-0.1932,-0.2961,-0.0903,-0.4704,0.0841,0.0154,25.5,2.7,0.000232,FALSE_REASSURANCE
+CD011885,"Clinically relevant response, as defined by study authors",7,ratio,0.2229,-0.257,0.7029,-0.9297,1.3756,0.1411,42.6,2.4,0.362611,CONCORDANT_NS
+CD012067,Adverse events,38,ratio,0.6381,0.261,1.0151,-1.487,2.7632,1.0609,94.0,5.64,0.00091,FALSE_REASSURANCE
+CD012079,Repeat surgery (0.5 to 7 years) including trials at high risk of bias,52,ratio,0.4463,0.0792,0.8133,-1.2772,2.1697,0.7012,48.9,4.7,0.01717,FALSE_REASSURANCE
+CD012170,Weight,8,difference,-2.0445,-5.3728,1.2838,-12.2601,8.1711,14.5461,93.9,3.07,0.228604,CONCORDANT_NS
+CD012178,Incidence of NEC,5,ratio,-0.0913,-0.8183,0.6357,-1.2717,1.0891,0,0,1.62,0.805578,CONCORDANT_NS
+CD012186,Withdrawals due to AEs,105,ratio,0.2843,0.1559,0.4128,-0.5721,1.1407,0.1822,58.1,6.67,1.4e-05,FALSE_REASSURANCE
+CD012214,"Regression of endometrial hyperplasia (with or without atypia) to proliferative, secretory or atrophic endometrium",4,ratio,1.172,0.4747,1.8693,-0.3587,2.7027,0,0,2.2,0.000986,FALSE_REASSURANCE
+CD012268,Body weight,21,difference,-0.1513,-0.5458,0.2433,-1.0772,0.7747,0.1552,45.7,2.35,0.452393,CONCORDANT_NS
+CD012397,"Specific behaviours: aggression, other episode of aggression (incidents per treatment days)",3,ratio,0.0329,-1.1495,1.2154,-15.0117,15.0776,1.038,95.6,12.72,0.956447,CONCORDANT_NS
+CD012426,All-cause mortality at 90 days,4,ratio,-0.0352,-0.3214,0.2509,-0.6634,0.5929,0,0,2.2,0.809235,CONCORDANT_NS
+CD012429,Total serious adverse events/effects,4,ratio,-0.0171,-0.988,0.9539,-2.1486,2.1144,0,0,2.2,0.972496,CONCORDANT_NS
+CD012445,Child emotional and behavioural adjustment – postintervention,5,difference,-0.0912,-0.5787,0.3964,-1.6974,1.5151,0.1929,64.4,3.29,0.714032,CONCORDANT_NS
+CD012503,Recurrence of ischemic stroke at the endpoint (for all studies),17,ratio,-0.1657,-0.3113,-0.02,-0.3451,0.0138,0.0016,0.8,1.23,0.025823,FALSE_REASSURANCE
+CD012570,Adverse events,10,ratio,-0.0077,-0.0878,0.0724,-0.1019,0.0865,0,0,1.18,0.850388,CONCORDANT_NS
+CD012572,All-cause mortality,4,ratio,0.7305,-0.2367,1.6976,-1.3926,2.8535,0,0,2.2,0.138783,CONCORDANT_NS
+CD012586,Live birth or ongoing pregnancy,42,ratio,-0.0578,-0.1193,0.0038,-0.1212,0.0057,0,0,1.03,0.065792,CONCORDANT_NS
+CD012623,Macular hole closure ,9,ratio,0.0571,-0.0094,0.1236,-0.0841,0.1984,0.0024,25.9,2.12,0.092314,CONCORDANT_NS
+CD012635,All-cause mortality at 30 days,6,ratio,-0.0308,-0.2357,0.174,-0.4938,0.4321,0.0169,28.0,2.26,0.767949,CONCORDANT_NS
+CD012642,Hypernatraemia (≥ 150 mmol/L),4,ratio,0.3651,-0.1096,0.8397,-0.6768,1.407,0,0,2.2,0.13167,CONCORDANT_NS
+CD012693,Cycle cancellations for poor response,8,ratio,-0.7774,-1.3049,-0.2499,-1.9234,0.3687,0.1469,28.7,2.17,0.003872,FALSE_REASSURANCE
+CD012712,Endotracheal reintubation,20,ratio,-0.819,-0.9527,-0.6852,-0.9623,-0.6756,0,0,1.07,0.0,CONCORDANT_SIG
+CD012718,Caries arrest (at end of study follow-up),5,ratio,0.4882,0.2601,0.7164,-0.3503,1.3267,0.0559,83.6,3.68,2.7e-05,FALSE_REASSURANCE
+CD012757,Mortality at longest follow-up,3,ratio,-0.1483,-0.2367,-0.0599,-0.7215,0.4249,0,0,6.48,0.001013,FALSE_REASSURANCE
+CD012850,Frequency of joint noise,5,ratio,-0.0373,-0.2598,0.1852,-0.4853,0.4107,0.0069,9.5,2.01,0.74244,CONCORDANT_NS
+CD012891,Ovarian insufficiency grouped by strict or broad definition,13,ratio,-0.597,-0.919,-0.275,-1.6533,0.4594,0.2034,74.9,3.28,0.000279,FALSE_REASSURANCE
+CD012905,Development of AKI,12,ratio,-0.3734,-0.6142,-0.1326,-0.9961,0.2493,0.063,42.3,2.59,0.00237,FALSE_REASSURANCE
+CD012925,Patient/client health status and well-being (undesirable outcomes),6,ratio,-0.135,-0.3396,0.0697,-0.8023,0.5323,0.0469,79.7,3.26,0.196122,CONCORDANT_NS
+CD012942,"Comparison 1 All antidepressants versus placebo, Outcome 2 Acceptability",36,ratio,0.0284,-0.0707,0.1275,-0.4063,0.4631,0.0432,51.7,4.39,0.574294,CONCORDANT_NS
+CD012967,Adverse events leading to cessation of treatment,3,ratio,0.3227,-0.7797,1.4252,-6.8243,7.4697,0,0,6.48,0.566161,CONCORDANT_NS
+CD012993,Treatment-emergent adverse events (breakdown 2),13,ratio,0.1398,-0.1879,0.4675,-0.6776,0.9573,0.11,32.3,2.49,0.402934,CONCORDANT_NS
+CD013042,Participant reported treatment success,13,ratio,0.0774,-0.0111,0.1659,-0.1572,0.3121,0.0093,48.3,2.65,0.086394,CONCORDANT_NS
+CD013051,Resolution of ear discharge (1 to up to 2 weeks),7,ratio,0.6274,0.2391,1.0157,-0.6962,1.951,0.2259,90.1,3.41,0.00154,FALSE_REASSURANCE
+CD013052,Subgroup analysis: CSOM diagnosis,5,ratio,0.0185,-0.0405,0.0775,-0.0773,0.1142,0,0,1.62,0.538907,CONCORDANT_NS
+CD013053,Resolution of ear discharge,4,ratio,0.4217,0.2544,0.5891,0.0544,0.7891,0,0,2.2,1e-06,CONCORDANT_SIG
+CD013054,Sensitivity analysis: unpublished - resolution of ear discharge 1 to 2 weeks,8,ratio,-0.2663,-0.365,-0.1676,-0.5221,-0.0104,0.0084,47.4,2.59,0.0,CONCORDANT_SIG
+CD013055,Resolution of ear discharge (2 to 4 weeks),3,ratio,0.6838,0.4042,0.9633,-1.1286,2.4961,0,0,6.48,2e-06,FALSE_REASSURANCE
+CD013056,Resolution of ear discharge (1–2 weeks),4,ratio,-0.3089,-0.5704,-0.0474,-1.4506,0.8328,0.0526,81.4,4.37,0.020579,FALSE_REASSURANCE
+CD013059,Treatment non-acceptability,5,ratio,1.2367,0.1777,2.2958,-0.4829,2.9563,0,0,1.62,0.022095,FALSE_REASSURANCE
+CD013071,Treatment withdrawal due to adverse events,16,ratio,-0.2997,-0.6457,0.0463,-0.6783,0.0789,0,0,1.09,0.089566,CONCORDANT_NS
+CD013105,Bladder function ,5,ratio,-0.7443,-1.6386,0.15,-3.3364,1.8477,0.4552,49.3,2.9,0.102827,CONCORDANT_NS
+CD013197,Serious adverse events (sensitivity analysis),64,ratio,-0.1503,-0.5191,0.2185,-2.4549,2.1544,1.2938,69.2,6.25,0.424462,CONCORDANT_NS
+CD013232,Adverse effects: neurological,121,ratio,0.0314,-0.1117,0.1746,-0.1132,0.1761,0,0,1.01,0.666833,CONCORDANT_NS
+CD013255,Sinus rhythm until hospital discharge or end of study follow-up (paroxysmal AF),9,ratio,0.8126,0.5315,1.0938,-0.1218,1.7471,0.1356,80.6,3.32,0.0,FALSE_REASSURANCE
+CD013278,All-cause mortality during hospital stay,12,ratio,0.1834,-0.0438,0.4107,-0.0749,0.4417,0,0,1.14,0.1136,CONCORDANT_NS
+CD013284,Mortality (all-cause),4,ratio,0.1182,-0.5555,0.7919,-1.703,1.9395,0.061,12.0,2.7,0.730902,CONCORDANT_NS
+CD013295,Need for allogeneic blood transfusion (only trials included in the NMA),66,ratio,-0.3585,-0.5338,-0.1832,-1.2825,0.5655,0.206,52.3,5.27,6.1e-05,FALSE_REASSURANCE
+CD013332,SSI,10,ratio,-0.4722,-0.7716,-0.1727,-1.2707,0.3263,0.0966,46.9,2.67,0.001997,FALSE_REASSURANCE
+CD013342,Total adverse events,8,ratio,0.3506,0.0254,0.6758,-0.4614,1.1627,0.0826,48.4,2.5,0.034577,FALSE_REASSURANCE
+CD013344,Therapy-related adverse events,6,ratio,0.5704,-0.1737,1.3144,-0.4836,1.6244,0,0,1.42,0.13296,CONCORDANT_NS
+CD013353,PIPP during endotracheal suctioning,6,difference,-2.1839,-3.6561,-0.7116,-6.9879,2.6202,2.4296,73.9,3.26,0.003645,FALSE_REASSURANCE
+CD013355,Neurological outcome: severe intraventricular haemorrhage,4,ratio,-0.1682,-1.0254,0.689,-3.1411,2.8047,0.2861,35.1,3.47,0.700507,CONCORDANT_NS
+CD013358,Smoking cessation,6,ratio,0.368,-0.2467,0.9827,-1.6622,2.3982,0.4363,78.6,3.3,0.240626,CONCORDANT_NS
+CD013366,Occlusion (sensitivity analyses),7,ratio,-0.1701,-0.6385,0.2984,-0.8264,0.4863,0.0081,1.3,1.4,0.476759,CONCORDANT_NS
+CD013396,Adverse events,16,ratio,-0.1489,-0.5707,0.273,-1.2871,0.9894,0.2353,40.6,2.7,0.489138,CONCORDANT_NS
+CD013408,All-cause mortality,5,ratio,-0.4448,-0.7742,-0.1154,-1.3251,0.4355,0.0483,34.9,2.67,0.008139,FALSE_REASSURANCE
+CD013414,Adverse events,15,ratio,0.6069,0.2838,0.9299,-0.3742,1.5879,0.1791,54.7,3.04,0.000231,FALSE_REASSURANCE
+CD013421,Failure of hemostatic intervention,15,ratio,-0.7669,-1.0337,-0.5,-1.612,0.0783,0.1345,60.4,3.17,0.0,FALSE_REASSURANCE
+CD013425,Leaving the study early: adverse effects,21,ratio,0.6876,0.4694,0.9058,0.4546,0.9206,0,0,1.07,0.0,CONCORDANT_SIG
+CD013429,Primary: Eustachian tube function measured by an objective or semi-objective test: improvement of tympanometry (by ear),4,ratio,0.9228,0.614,1.2316,0.2449,1.6007,0,0,2.2,0.0,CONCORDANT_SIG
+CD013445,Stone-free rate,39,ratio,0.1118,0.0721,0.1515,-0.0604,0.284,0.0068,57.2,4.34,0.0,FALSE_REASSURANCE
+CD013456,Trauma-focused versus non trauma-focused interventions; outcome 3: Dropout from treatment,12,ratio,0.3555,0.084,0.627,-0.1722,0.8831,0.0369,17.6,1.94,0.010279,FALSE_REASSURANCE
+CD013462,Rate of postoperative pancreatic fistula (grade B or C defined according to the 2005 ISGPF definition),17,ratio,0.299,-0.2729,0.8709,-1.6029,2.2009,0.7111,62.2,3.33,0.305484,CONCORDANT_NS
+CD013474,Treatment discontinuation,6,ratio,-0.0732,-0.3295,0.1831,-0.7947,0.6483,0.0504,64.0,2.81,0.575705,CONCORDANT_NS
+CD013476,Significant adverse events during maintenance therapy up to 6 months follow-up,3,ratio,1.3113,-0.3962,3.0188,-9.7583,12.3809,0,0,6.48,0.132273,CONCORDANT_NS
+CD013508,MACE,4,ratio,0.196,-0.4617,0.8536,-2.0269,2.4188,0.1543,33.9,3.38,0.559211,CONCORDANT_NS
+CD013539,Antidrug antibodies,29,ratio,0.0021,-0.1183,0.1225,-0.124,0.1281,0,0,1.05,0.973053,CONCORDANT_NS
+CD013541,Leaving the study early (> 12 months postintervention),8,ratio,-0.1637,-0.5803,0.2529,-0.6838,0.3564,0,0,1.25,0.441258,CONCORDANT_NS
+CD013561,Adverse events,5,ratio,0.2108,-0.2866,0.7082,-1.1391,1.5607,0.1155,36.6,2.71,0.406265,CONCORDANT_NS
+CD013571,Participant-reported cure or improvement: immediately after treatment,4,ratio,0.3044,0.1059,0.5029,-0.4086,1.0173,0.0172,44.2,3.59,0.002653,FALSE_REASSURANCE
+CD013590,SCD-related complications (number of participants),5,ratio,0.4638,-0.1698,1.0973,-0.5649,1.4925,0,0,1.62,0.151361,CONCORDANT_NS
+CD013591,Physical activity (other measures),13,difference,5.4592,1.8402,9.0781,-4.182,15.1003,15.7784,91.0,2.66,0.003111,FALSE_REASSURANCE
+CD013595,On-study mortality,3,ratio,-0.3277,-0.4741,-0.1814,-1.2765,0.6211,0,0,6.48,1.1e-05,FALSE_REASSURANCE
+CD013613,Dropout for any reason at study endpoint,3,ratio,-0.032,-0.2497,0.1857,-1.4433,1.3793,0,0,6.48,0.773178,CONCORDANT_NS
+CD013614,Clinical improvement as measured by ACR20 response criteria or by the EULAR moderate response criteria or by PsARC criteria at 12 weeks,15,ratio,1.0759,0.8476,1.3041,0.2457,1.906,0.1341,80.0,3.64,0.0,CONCORDANT_SIG
+CD013631,Adverse events: any adverse event,3,ratio,0.4039,-0.356,1.1638,-6.9584,7.7662,0.1854,42.1,9.69,0.297536,CONCORDANT_NS
+CD013643,"Number of minor adverse events (Clavien-Dindo I, II), short term (< 1 year) ",6,ratio,1.3222,0.4452,2.1992,-1.0521,3.6965,0.5311,57.5,2.71,0.003127,FALSE_REASSURANCE
+CD013672,Treatment retention,7,ratio,0.1359,-0.0198,0.2917,-0.3299,0.6018,0.0265,68.7,2.99,0.087215,CONCORDANT_NS
+CD013715,Sensitivity analysis: pedACR70 at the latest time point,7,ratio,0.5389,0.157,0.9209,-0.5019,1.5798,0.126,55.1,2.73,0.005686,FALSE_REASSURANCE
+CD013719,Sensitivity analysis. Oral small molecule inhibitors: baricitinib vs placebo,4,ratio,1.1409,0.4809,1.801,-1.7066,3.9885,0.3246,79.9,4.31,0.000704,FALSE_REASSURANCE
+CD013726,Adverse events,12,ratio,-0.1767,-0.7238,0.3704,-1.9376,1.5841,0.5466,69.0,3.22,0.526661,CONCORDANT_NS
+CD013745,NOACs versus antiplatelet therapy,3,ratio,0.5183,0.2022,0.8344,-1.531,2.5676,0,0,6.48,0.001311,FALSE_REASSURANCE
+CD013748,Poor functional outcome,8,ratio,-0.2621,-0.5107,-0.0136,-0.5725,0.0482,0,0,1.25,0.038738,FALSE_REASSURANCE
+CD013757,Hospitalisation due to RSV infection,6,ratio,-0.7176,-1.2612,-0.174,-2.1196,0.6843,0.178,53.6,2.58,0.009668,FALSE_REASSURANCE
+CD013758,Any adverse event,4,ratio,-0.0619,-0.2262,0.1025,-0.4227,0.299,0,0,2.2,0.460793,CONCORDANT_NS
+CD013763,Rates of opioid-related adverse events (PONV),21,ratio,-0.7568,-1.0049,-0.5087,-1.2777,-0.2358,0.0459,14.3,2.1,0.0,CONCORDANT_SIG
+CD013764,Successful abortion,4,ratio,-0.0005,-0.0112,0.0102,-0.024,0.023,0,0,2.2,0.927724,CONCORDANT_NS
+CD013773,Incidence of myopia,7,ratio,-0.1956,-0.3224,-0.0689,-0.3619,-0.0294,0,0,1.31,0.002491,CONCORDANT_SIG
+CD013774,Adverse events grade 3 to 5,3,ratio,-0.7601,-1.2341,-0.2861,-6.7951,5.2748,0.1671,97.2,12.73,0.001671,FALSE_REASSURANCE
+CD013781,All-cause mortality,14,ratio,-0.4986,-0.8513,-0.1458,-0.9972,0.0001,0.02,4.2,1.41,0.005603,FALSE_REASSURANCE
+CD013789,"Scar thickness (ultrasound, PGT vs other scar management therapy)",38,difference,-0.0884,-0.2464,0.0696,-0.6973,0.5206,0.0837,41.9,3.85,0.27294,CONCORDANT_NS
+CD013800,All-cause death,48,ratio,-0.1472,-0.2563,-0.0382,-0.8152,0.5207,0.107,98.8,6.13,0.008113,FALSE_REASSURANCE
+CD013816,Thromboembolic events (composite),4,ratio,-0.1595,-1.7316,1.4127,-3.6107,3.2918,0,0,2.2,0.84241,CONCORDANT_NS
+CD013821,Short-term complications,22,ratio,-0.2212,-0.466,0.0237,-1.2946,0.8522,0.2492,91.0,4.38,0.076639,CONCORDANT_NS
+CD013822,Knowledge - dichotomous (correct answers),15,ratio,0.3589,0.2489,0.4688,-0.0288,0.7466,0.0291,94.5,3.53,0.0,FALSE_REASSURANCE
+CD013827,Miscarriage,14,ratio,-0.2233,-0.6269,0.1804,-0.996,0.5495,0.0834,14.4,1.91,0.278358,CONCORDANT_NS
+CD013830,Positive-pressure ventilation after institution of treatment,7,ratio,-0.33,-0.6737,0.0136,-0.7807,0.1206,0,0,1.31,0.059779,CONCORDANT_NS
+CD013834,Gait speed,8,difference,0.0319,-0.3856,0.4494,-1.2221,1.2859,0.2173,61.2,3.0,0.881039,CONCORDANT_NS
+CD013844,Acceptability (dropouts),9,ratio,0.3658,-0.1539,0.8854,-0.2612,0.9927,0,0,1.21,0.167722,CONCORDANT_NS
+CD013874,Serious adverse events assessed with Grades 3/4 CTCAE over 24 months ,4,ratio,-0.1864,-1.0084,0.6357,-1.991,1.6183,0,0,2.2,0.656826,CONCORDANT_NS
+CD013875,Clinical pregnancy – all studies,9,ratio,0.7962,0.4081,1.1842,-0.0316,1.6239,0.0833,24.0,2.13,5.8e-05,FALSE_REASSURANCE
+CD014040,Fertilization rate ,14,ratio,0.1242,0.0468,0.2017,-0.1429,0.3914,0.0135,76.5,3.45,0.001662,FALSE_REASSURANCE
+CD014089,Adverse effects,6,ratio,0.4518,0.0374,0.8662,-0.1352,1.0388,0,0,1.42,0.032604,FALSE_REASSURANCE
+CD014145,Failed apnea reduction after 2 to 7 days,6,ratio,-0.3455,-1.1275,0.4364,-2.0387,1.3476,0.2127,22.0,2.17,0.386458,CONCORDANT_NS
+CD014300,Acceptability at study endpoint: children,9,ratio,-0.0843,-0.5251,0.3564,-1.4661,1.2974,0.2909,83.0,3.14,0.707611,CONCORDANT_NS
+CD014428,Pain intensity,6,difference,-13.8595,-19.5745,-8.1444,-32.4144,4.6955,36.1601,89.8,3.25,2e-06,FALSE_REASSURANCE
+CD014541,Major bleeding: short-term (45 days or fewer),5,ratio,0.7116,0.354,1.0691,-0.1365,1.5597,0.0377,22.6,2.37,9.6e-05,FALSE_REASSURANCE
+CD014544,Adverse events,12,ratio,-0.0016,-0.3385,0.3353,-0.7282,0.725,0.0768,26.6,2.16,0.992471,CONCORDANT_NS
+CD014585,Adverse events,12,ratio,-0.0548,-0.1772,0.0675,-0.3904,0.2807,0.0188,71.5,2.74,0.379713,CONCORDANT_NS
+CD014594,First-pass success,7,ratio,1.2091,0.9279,1.4903,0.3475,2.0707,0.0918,69.4,3.06,0.0,CONCORDANT_SIG
+CD014617,Risk of ocular infection within one month of corneal abrasion,3,ratio,0.0959,-0.12,0.3118,-1.5069,1.6987,0.0038,7.5,7.42,0.383964,CONCORDANT_NS
+CD014624,Depression response (early phase),38,ratio,0.164,0.084,0.2441,0.0337,0.2944,0.0025,3.9,1.63,5.9e-05,CONCORDANT_SIG
+CD014666,Occurrence of falls: immediate postintervention,6,ratio,-0.0429,-0.4113,0.3255,-1.1598,1.074,0.1265,79.5,3.03,0.819428,CONCORDANT_NS
+CD014678,All-cause mortality,10,ratio,-0.1741,-0.3188,-0.0294,-0.455,0.1068,0.0094,18.7,1.94,0.018358,FALSE_REASSURANCE
+CD014688,Child/adolescent quality of life between baseline and 12 months (self-reported) ,4,difference,0.6343,-0.2013,1.4699,-3.3843,4.6529,0.6906,96.1,4.81,0.13678,CONCORDANT_NS
+CD014713,Unplanned hospital presentation rates - unplanned hospital admissions within one month (30 days),5,ratio,-0.0066,-0.3552,0.3421,-1.0111,0.998,0.068,48.7,2.88,0.970574,CONCORDANT_NS
+CD014722,Diagnosis of mental disorders at 1-6 months ,6,ratio,-0.4306,-0.6898,-0.1713,-0.9862,0.125,0.0225,21.1,2.14,0.001132,FALSE_REASSURANCE
+CD014736,Mortality by end of follow-up,4,ratio,-0.0827,-0.8574,0.6919,-1.7832,1.6178,0,0,2.2,0.834184,CONCORDANT_NS
+CD014741,Adverse events,13,ratio,0.1146,0.0179,0.2112,-0.1306,0.3598,0.01,42.4,2.54,0.02013,FALSE_REASSURANCE
+CD014758,Change in refractive error from baseline,22,difference,0.1776,0.1152,0.24,-0.0569,0.4121,0.0116,60.3,3.76,0.0,FALSE_REASSURANCE
+CD014762,Adverse events (to day 30 after randomisation),7,ratio,0.0794,-0.1249,0.2837,-0.413,0.5718,0.0258,46.4,2.41,0.446305,CONCORDANT_NS
+CD014763,Surgical site infection,9,ratio,-1.8007,-2.3584,-1.2431,-2.4736,-1.1279,0,0,1.21,0.0,CONCORDANT_SIG
+CD014769,Any VTE,27,ratio,-0.1468,-0.277,-0.0165,-0.3493,0.0558,0.0053,4.4,1.55,0.027202,FALSE_REASSURANCE
+CD014792,Major complications,11,ratio,-0.4023,-0.9552,0.1506,-1.0405,0.2358,0,0,1.15,0.15383,CONCORDANT_NS
+CD014803,Attrition (dropouts),5,ratio,-0.0662,-0.774,0.6416,-1.2155,1.0831,0,0,1.62,0.854598,CONCORDANT_NS
+CD014811,All-cause mortality,4,ratio,0.4246,-0.212,1.0612,-1.1315,1.9807,0.0253,3.9,2.44,0.191157,CONCORDANT_NS
+CD014820,Acute kidney injury,17,ratio,-0.0282,-0.1536,0.0971,-0.287,0.2305,0.0106,18.1,2.06,0.658964,CONCORDANT_NS
+CD014833,Breastfeeding exclusivity short-term 1 to 3 months post-intervention,5,ratio,0.225,-0.0164,0.4665,-0.5218,0.9719,0.0399,59.8,3.09,0.06773,CONCORDANT_NS
+CD014844,Uterine infection,6,ratio,-0.2497,-0.7387,0.2394,-1.5315,1.0321,0.1509,48.2,2.62,0.316995,CONCORDANT_NS
+CD014845,Subgroup analysis: food selection/purchasing by label type (kcal),20,difference,-0.0593,-0.0857,-0.0329,-0.1089,-0.0096,0.0004,11.6,1.88,1.1e-05,CONCORDANT_SIG
+CD014852,Complication (pneumonia) during intervention phase,4,ratio,-0.5251,-1.262,0.2118,-3.6121,2.562,0.3734,70.9,4.19,0.162555,CONCORDANT_NS
+CD014855,Intraperitoneal abscess,7,ratio,0.0738,-0.5995,0.7471,-1.7695,1.917,0.3961,51.2,2.74,0.829961,CONCORDANT_NS
+CD014861,Proportion of participants completing treatment regimen as planned,4,ratio,0.0968,-0.132,0.3255,-0.8005,0.994,0.0299,55.6,3.92,0.406989,CONCORDANT_NS
+CD014869, All-cause mortality (between  1 and 5 years),8,ratio,-0.0137,-0.0807,0.0534,-0.1654,0.1381,0.0027,44.0,2.26,0.6895,CONCORDANT_NS
+CD014871,Self-selected comfortable walking speed,8,difference,0.1317,0.0522,0.2111,-0.099,0.3623,0.0072,56.8,2.9,0.001158,FALSE_REASSURANCE
+CD014872,Overall response rate,13,ratio,1.1036,0.8486,1.3586,0.4126,1.7945,0.0816,39.3,2.71,0.0,CONCORDANT_SIG
+CD014889,All-cause mortality,5,ratio,-0.7803,-1.3028,-0.2577,-1.6287,0.0682,0,0,1.62,0.003425,FALSE_REASSURANCE
+CD014914,Adverse events (treatment): primary analysis,16,ratio,0.2892,0.1425,0.4358,-0.1108,0.6891,0.0292,44.2,2.73,0.000112,FALSE_REASSURANCE
+CD014923,"Patient disability - number of participants who improved (unpaired, parallel assessment < 12 months)",3,ratio,1.9064,0.6445,3.1683,-10.3598,14.1726,0.5174,41.8,9.72,0.003066,FALSE_REASSURANCE
+CD014932,Improvement in quality-of-life measures: family impact,7,difference,-1.082,-2.3965,0.2325,-5.0764,2.9124,1.9648,69.7,3.04,0.106668,CONCORDANT_NS
+CD014935,All-cause mortality,3,ratio,0.0359,-0.9584,1.0303,-6.4103,6.4821,0,0,6.48,0.943529,CONCORDANT_NS
+CD014937,Subgroup analysis: acute kidney injury by population,66,ratio,-0.2594,-0.3792,-0.1396,-0.9002,0.3814,0.0991,70.2,5.35,2.2e-05,FALSE_REASSURANCE
+CD014941,"Cenobamate versus placebo - subgroup analysis, 50% responder rate",4,ratio,0.7626,0.5652,0.96,0.3047,1.2205,0.0012,2.9,2.32,0.0,CONCORDANT_SIG
+CD014944,Proportion of participants without treatment success at the longest follow-up (1–4 years),3,ratio,0.0453,-0.4153,0.5059,-5.0299,5.1204,0.1043,65.5,11.02,0.847185,CONCORDANT_NS
+CD014959,Proportion of people with laboratory-confirmed leptospirosis regardless of the presence of an identified clinical syndrome (inclusive of asymptomatic cases) ,5,ratio,-0.5553,-1.3302,0.2197,-3.0838,1.9733,0.4749,78.0,3.26,0.160241,CONCORDANT_NS
+CD014960,All-cause mortality,3,ratio,0.4527,-0.4244,1.3297,-6.2945,7.1998,0.0817,7.7,7.69,0.311716,CONCORDANT_NS
+CD014964,First-attempt success (Types of ultrasound guidance: preprocedural versus real‐time),54,ratio,0.3172,0.2435,0.391,-0.1202,0.7547,0.0461,74.5,5.93,0.0,FALSE_REASSURANCE
+CD014965,Other side effects: sedation,8,ratio,1.2666,0.7383,1.7949,0.607,1.9262,0,0,1.25,3e-06,CONCORDANT_SIG
+CD014966,Death,28,ratio,-0.0895,-0.1845,0.0055,-0.5053,0.3262,0.0386,91.1,4.38,0.06469,CONCORDANT_NS
+CD014967,Mortality before hospital discharge,5,ratio,0.3607,-0.2017,0.923,-0.5525,1.2738,0,0,1.62,0.208772,CONCORDANT_NS
+CD015003,Adverse events,10,ratio,0.7143,0.0621,1.3665,-0.7497,2.1782,0.2923,33.4,2.24,0.031829,FALSE_REASSURANCE
+CD015014,Mortality (proportion of residents who died),24,ratio,0.0342,-0.0792,0.1476,-0.0858,0.1542,0,0,1.06,0.554634,CONCORDANT_NS
+CD015033,Imaging response. No-improvement in steatosis on ultrasound (range from 5 months to 12 months),4,ratio,-0.1981,-0.3795,-0.0167,-0.6931,0.2968,0.0047,12.9,2.73,0.032297,FALSE_REASSURANCE
+CD015038,Wound infection,9,ratio,-1.3964,-2.4116,-0.3812,-3.3242,0.5314,0.3964,16.5,1.9,0.007021,FALSE_REASSURANCE
+CD015040,Stimulation frequency: low versus high frequency,7,difference,-0.4327,-0.9441,0.0787,-1.9059,1.0405,0.2603,62.8,2.88,0.097238,CONCORDANT_NS
+CD015042,Number of women who completed treatment,7,ratio,-0.0202,-0.0623,0.022,-0.0754,0.0351,0,0,1.31,0.348216,CONCORDANT_NS
+CD015064,Pimecrolimus 1% versus vehicle,4,ratio,0.4136,-0.0563,0.8834,-1.6631,2.4902,0.1755,81.0,4.42,0.08451,CONCORDANT_NS
+CD015083,Back-related function,67,difference,-0.1358,-0.1947,-0.0769,-0.4883,0.2167,0.0303,59.4,5.99,6e-06,FALSE_REASSURANCE
+CD015087,Nausea and/or vomiting,7,ratio,-0.3686,-0.768,0.0308,-1.3069,0.5696,0.0917,37.9,2.35,0.070444,CONCORDANT_NS
+CD015120,Smoking cessation,5,ratio,-0.0923,-0.8001,0.6156,-1.2416,1.0571,0,0,1.62,0.798385,CONCORDANT_NS
+CD015122,Blood transfusion,9,ratio,-0.7887,-1.2962,-0.2813,-1.8971,0.3196,0.1527,26.1,2.18,0.002316,FALSE_REASSURANCE
+CD015124,Assessment of prognostic factors around breast cancer diagnosis,8,ratio,-0.7514,-1.0132,-0.4896,-1.0782,-0.4245,0,0,1.25,0.0,CONCORDANT_SIG
+CD015134,Preterm birth,6,ratio,0.1504,-0.0078,0.3085,-0.1693,0.47,0.0067,17.3,2.02,0.062363,CONCORDANT_NS
+CD015140,Risk of relapse in drug-off time - fixed-effect model,5,ratio,-0.0917,-0.4673,0.2839,-1.2264,1.043,0.0904,55.3,3.02,0.632234,CONCORDANT_NS
+CD015145,Nausea and vomiting,3,ratio,-0.3836,-0.7998,0.0327,-3.0822,2.3151,0,0,6.48,0.070913,CONCORDANT_NS
+CD015160,Clinical recurrence or reoperation for recurrence within one year of repair,4,ratio,-1.1338,-2.207,-0.0607,-3.4897,1.2221,0,0,2.2,0.038384,FALSE_REASSURANCE
+CD015192,Surgical site infection rate,6,ratio,0.1939,-0.7748,1.1627,-1.9056,2.2934,0.3275,22.5,2.17,0.694825,CONCORDANT_NS
+CD015213,Recurrence rate,12,ratio,-1.4942,-2.1971,-0.7913,-2.2933,-0.6951,0,0,1.14,3.1e-05,CONCORDANT_SIG
+CD015215,"Presence/persistence of OME, randomised by child (long-term)",3,ratio,0.1867,-0.1796,0.553,-2.1881,2.5615,0,0,6.48,0.317767,CONCORDANT_NS
+CD015219,All adverse events,18,ratio,0.2382,0.0496,0.4267,-0.4106,0.887,0.0844,63.8,3.44,0.013292,FALSE_REASSURANCE
+CD015229,Opiate consumption at 3 months,9,difference,-66.5402,-80.3221,-52.7584,-98.56,-34.5204,133.9189,39.2,2.32,0.0,CONCORDANT_SIG
+CD015252,Presence or persistence of OME,7,ratio,-0.121,-0.2123,-0.0297,-0.2407,-0.0013,0,0,1.31,0.009357,CONCORDANT_SIG
+CD015254,Sensitivity analysis: persistence (short-term) including cases of acute otitis (Mandel 1987),10,ratio,-0.1347,-0.2303,-0.0392,-0.4194,0.1499,0.0129,63.5,2.98,0.005699,FALSE_REASSURANCE
+CD015255,Persistence of OME (very short-term - up to 6 weeks),7,ratio,-0.2971,-0.5552,-0.0391,-1.1016,0.5073,0.0806,81.5,3.12,0.024029,FALSE_REASSURANCE
+CD015284,Seizure freedom,5,ratio,0.5278,0.0854,0.9701,-0.9345,1.9901,0.1602,70.8,3.31,0.019375,FALSE_REASSURANCE
+CD015314,Tobacco cessation at longest follow-up,21,ratio,0.5635,0.3634,0.7636,-0.1652,1.2922,0.1108,68.1,3.64,0.0,FALSE_REASSURANCE
+CD015326,zBMI (Medium Term),16,difference,-0.0719,-0.1078,-0.0361,-0.1462,0.0023,0.0009,17.9,2.07,8.5e-05,FALSE_REASSURANCE
+CD015328,BMI short-term,27,difference,-0.1081,-0.2057,-0.0105,-0.4834,0.2672,0.0307,71.9,3.84,0.030002,FALSE_REASSURANCE
+CD015330,BMI short term,11,difference,0.0301,-0.0738,0.1341,-0.0899,0.1501,0,0,1.15,0.569948,CONCORDANT_NS
+CD015331,Leaving the study early - for any reason - overall acceptability (separated time points),48,ratio,-0.168,-0.2773,-0.0586,-0.2803,-0.0556,0,0,1.03,0.002617,CONCORDANT_SIG
+CD015332,Leaving the study early – for any reason – overall acceptability (separated time points),5,ratio,-0.2039,-0.5315,0.1238,-0.7359,0.3282,0,0,1.62,0.2227,CONCORDANT_NS
+CD015350,Proportion with non-serious or non-severe harms/adverse events,9,ratio,-0.3511,-1.1049,0.4026,-2.4882,1.7859,0.6689,58.4,2.84,0.361196,CONCORDANT_NS
+CD015373,Tolerability,5,ratio,0.2238,-0.948,1.3955,-2.1458,2.5933,0.197,10.9,2.02,0.708166,CONCORDANT_NS
+CD015383,Anxiety on STAI-T (scale 20 to 80),5,difference,-8.4087,-12.9247,-3.8927,-15.7414,-1.076,0,0,1.62,0.000263,CONCORDANT_SIG
+CD015387,All-cause mortality at the end of scheduled follow-up,21,ratio,-0.2345,-0.3443,-0.1246,-0.4514,-0.0175,0.0076,12.6,1.98,2.9e-05,CONCORDANT_SIG
+CD015395,Worsening of clinical status at day 28: admission to hospital or death (subgroup analysis based on ethnicity),4,ratio,-1.9158,-2.5926,-1.239,-3.4015,-0.4301,0,0,2.2,0.0,CONCORDANT_SIG
+CD015432,Number of children who required rescue medication 2 hours to less than 24 hours postintervention,8,ratio,-0.129,-0.4824,0.2244,-1.1626,0.9046,0.1459,75.0,2.92,0.474319,CONCORDANT_NS
+CD015443,Discontinuations due to adverse events,19,ratio,0.6762,0.3608,0.9917,-0.3347,1.6872,0.2037,51.4,3.2,2.6e-05,FALSE_REASSURANCE
+CD015448,Mean change from baseline in symptom scores at 4 weeks,7,difference,1.6006,-0.7364,3.9376,-3.7084,6.9097,2.8437,29.9,2.27,0.179469,CONCORDANT_NS
+CD015476,Adenoma detection rate,15,ratio,0.1668,0.0909,0.2426,-0.0842,0.4178,0.012,64.0,3.31,1.6e-05,FALSE_REASSURANCE
+CD015514,Adverse events - outer retinal folds,3,ratio,-0.3407,-0.9925,0.3111,-6.487,5.8056,0.1234,36.8,9.43,0.30556,CONCORDANT_NS
+CD015518,Cancer-related fatigue ≤ 12 weeks,12,difference,-0.3902,-0.6499,-0.1304,-1.3174,0.5371,0.1556,77.1,3.57,0.003242,FALSE_REASSURANCE
+CD015520,CRF ≤ 12 weeks,5,difference,-0.257,-0.4194,-0.0947,-0.5207,0.0066,0,0,1.62,0.001914,FALSE_REASSURANCE
+CD015524,Analysis 1.8. Outcome 5: Proportion of participants with non-serious adverse events,4,ratio,0.257,-0.1249,0.6389,-0.5814,1.0955,0,0,2.2,0.1872,CONCORDANT_NS
+CD015532,Overall mortality and in-hospital mortality,11,ratio,-0.0078,-0.2964,0.2808,-0.8358,0.8202,0.1123,52.6,2.87,0.957676,CONCORDANT_NS
+CD015536,Proportion of people with serious adverse events,10,ratio,-0.4173,-1.1093,0.2747,-2.2295,1.3949,0.4929,44.5,2.62,0.237274,CONCORDANT_NS
+CD015551,Any-grade adverse events (up to 30 days after final dose),3,ratio,0.0173,-0.0168,0.0515,-0.2041,0.2387,0,0,6.48,0.320553,CONCORDANT_NS
+CD015573,Complications of treatment,4,ratio,-1.0279,-2.1706,0.1147,-3.5364,1.4806,0,0,2.2,0.077876,CONCORDANT_NS
+CD015584,Placement success,13,ratio,0.0115,-0.0113,0.0342,-0.049,0.0719,0.0006,42.0,2.66,0.322868,CONCORDANT_NS
+CD015588,All-cause death,16,ratio,-0.1581,-0.252,-0.0642,-0.359,0.0428,0.0065,21.2,2.14,0.00097,FALSE_REASSURANCE
+CD015636,Subgroup investigations – dengue virus (DENV) serotype,5,ratio,-1.4275,-1.7047,-1.1504,-1.8776,-0.9775,0,0,1.62,0.0,CONCORDANT_SIG
+CD015673,Dropouts,14,ratio,-0.1174,-0.241,0.0061,-0.2548,0.0199,0,0,1.11,0.062408,CONCORDANT_NS
+CD015698,Anastomotic leakage (Subgroup analysis: IPC Types),3,ratio,0.52,-0.8442,1.8841,-8.3236,9.3636,0,0,6.48,0.455026,CONCORDANT_NS
+CD015721,Functional independence: mRS score < 3 within 90 days,6,ratio,0.0161,-0.0494,0.0815,-0.1367,0.1689,0.0019,27.6,2.33,0.630267,CONCORDANT_NS
+CD015746,Acute typhoid fever,6,ratio,-1.6091,-2.0656,-1.1526,-2.9841,-0.2341,0.191,66.6,3.01,0.0,CONCORDANT_SIG
+CD015749,Occurrence of adverse events,3,ratio,-0.1445,-0.8243,0.5354,-6.8256,6.5366,0.1562,43.3,9.83,0.677025,CONCORDANT_NS
+CD015751,Participant discontinuation,3,ratio,0.4425,-0.7487,1.6337,-7.2797,8.1647,0,0,6.48,0.466545,CONCORDANT_NS
+CD015779,Recurrence of rheumatic fever,6,ratio,-0.9324,-1.4953,-0.3694,-1.7298,-0.1349,0,0,1.42,0.00117,CONCORDANT_SIG
+CD015786,Early adverse effects,10,ratio,-1.3609,-2.2688,-0.453,-2.4291,-0.2927,0,0,1.18,0.003304,CONCORDANT_SIG
+CD015788,Proportion of participants who were adherent,8,ratio,0.1667,0.0138,0.3196,-0.294,0.6274,0.0294,70.4,3.01,0.032584,FALSE_REASSURANCE
+CD015804,Proportion of participants who experienced TEAEs during the study period,8,ratio,-0.0293,-0.089,0.0304,-0.1137,0.0551,0.0003,3.2,1.41,0.336075,CONCORDANT_NS
+CD015820,Adverse events,4,ratio,0.3284,-0.3567,1.0136,-1.1756,1.8325,0,0,2.2,0.347442,CONCORDANT_NS
+CD015824,Clinical worsening,5,ratio,-0.6349,-0.8866,-0.3831,-1.0436,-0.2261,0,0,1.62,1e-06,CONCORDANT_SIG
+CD015830,Duration of delirium,4,difference,-1.0739,-1.7547,-0.393,-3.2639,1.1162,0.1384,28.0,3.22,0.001992,FALSE_REASSURANCE
+CD015849,All-cause death,7,ratio,-0.164,-0.3028,-0.0252,-0.4474,0.1194,0.0071,22.9,2.04,0.020592,FALSE_REASSURANCE
+CD015854,Serious adverse event,5,ratio,-0.8275,-1.9911,0.3362,-2.7169,1.062,0,0,1.62,0.163398,CONCORDANT_NS
+CD015894,Pain assessed with a validated scale for procedural pain in newborns during the procedure,7,difference,-0.5632,-0.8714,-0.255,-1.4883,0.3619,0.1048,62.0,3.0,0.000341,FALSE_REASSURANCE
+CD015932,Rate of pulmonary complications – pneumonia (with RCT),10,ratio,-0.2841,-0.4457,-0.1225,-0.8196,0.2515,0.0471,94.3,3.31,0.00057,FALSE_REASSURANCE
+CD015968,Waist circumference (cm) - End of study,3,difference,-1.1554,-3.9146,1.6038,-22.4393,20.1284,0.824,12.9,7.71,0.411801,CONCORDANT_NS
+CD016031,"Comparison 3: Lateral vs posterior, Outcome 15: Adverse events, implant related (categorical data)",28,ratio,-0.2507,-0.6785,0.177,-0.6993,0.1979,0,0,1.05,0.250654,CONCORDANT_NS
+CD016064,Adverse events,5,ratio,0.2913,-0.2964,0.8791,-0.6631,1.2457,0,0,1.62,0.331313,CONCORDANT_NS
+CD016119,Requirement for blood transfusion,16,ratio,0.2936,0.0064,0.5807,-0.4455,1.0327,0.0973,33.0,2.57,0.045071,FALSE_REASSURANCE
+CD016120,Side effects,4,ratio,-0.3542,-1.5298,0.8214,-5.5251,4.8167,1.0846,85.0,4.4,0.554824,CONCORDANT_NS
+CD016131,All-cause medically attended acute respiratory illnesses (MAARI),5,ratio,-0.3029,-0.6175,0.0117,-0.8138,0.2079,0,0,1.62,0.059133,CONCORDANT_NS
+CD016136,Implementation outcome,30,difference,0.9477,0.7071,1.1883,-0.1948,2.0901,0.296,78.1,4.75,0.0,FALSE_REASSURANCE
+CD016147,Manual removal of the placenta (end of treatment),3,ratio,-0.1935,-0.6208,0.2337,-4.8145,4.4274,0.0847,59.8,10.82,0.374625,CONCORDANT_NS
+CD016148,2nd degree tears,4,ratio,0.0382,-0.1124,0.1888,-0.2924,0.3688,0,0,2.2,0.61895,CONCORDANT_NS
+CD016211,Maternal sepsis: subgroup analysis (polypharmacy vs monopharmacy),5,ratio,-0.4165,-0.5786,-0.2544,-0.6797,-0.1533,0,0,1.62,0.0,CONCORDANT_SIG
+CD016278,Blood transfusion,4,ratio,-0.1308,-0.3336,0.0721,-0.6674,0.4059,0.0048,5.8,2.65,0.206501,CONCORDANT_NS
