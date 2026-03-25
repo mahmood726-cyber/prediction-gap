@@ -117,7 +117,7 @@ Prediction intervals include the null in 70% of Cochrane meta-analyses where the
 
 ## Data availability statement
 
-The Pairwise70 dataset is available from [ZENODO_DOI_PLACEHOLDER]. The analysis code, all output data, and an interactive dashboard are available at [GITHUB_URL_PLACEHOLDER].
+The Pairwise70 dataset is available from [ZENODO_DOI_PLACEHOLDER]. The analysis code, all output data, and an interactive dashboard are available at https://github.com/mahmood726-cyber/prediction-gap.
 
 ## Funding
 
