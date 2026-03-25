@@ -1,9 +1,11 @@
 # The Prediction Gap: 70% of Statistically Significant Cochrane Meta-Analyses Have Prediction Intervals That Include the Null
 
 ## Authors
-[AUTHOR_NAME_PLACEHOLDER]^1
+Mahmood Ahmad^1
 
-^1 [AFFILIATION_PLACEHOLDER]
+^1 Royal Free Hospital, London, United Kingdom
+
+Correspondence: mahmood.ahmad2@nhs.net | ORCID: 0009-0003-7781-4478
 
 ---
 
@@ -17,7 +19,7 @@
 
 **Main outcome measures:** For each review, we computed the DerSimonian-Laird pooled effect with 95% confidence interval (CI) and 95% prediction interval (PI). Reviews were classified as: (1) CI excludes null AND PI excludes null (concordant significant); (2) CI excludes null BUT PI includes null (false reassurance — the treatment may not work in the next setting); (3) CI and PI both include null (concordant non-significant).
 
-**Results:** Of 403 reviews, 189 (46.9%) had confidence intervals excluding the null (statistically significant). Of these, 132 (69.8%) had prediction intervals that included the null — meaning the treatment effect, while significant on average, may not apply in a new clinical setting. Only 57 reviews (14.1% of all reviews) had both CI and PI excluding the null. Prediction intervals were on average 3.1 times wider than confidence intervals (median 2.6x). The false reassurance rate was highest among reviews with moderate heterogeneity (I-squared 30-60%): in this group, 85% of significant CIs were contradicted by their PIs.
+**Results:** Of 403 reviews, 189 (46.9%) had confidence intervals excluding the null (statistically significant). Of these, 132 (69.8%) had prediction intervals that included the null — meaning the treatment effect, while significant on average, may not apply in a new clinical setting. Only 57 reviews (14.1% of all reviews) had both CI and PI excluding the null. Prediction intervals were on average 3.1 times wider than confidence intervals (median 2.6x). The false reassurance rate increased sharply with heterogeneity: from 42% at I-squared < 25% to 95% at I-squared 50-75%, indicating that even modest heterogeneity is sufficient to invalidate the clinical applicability of a significant pooled estimate.
 
 **Conclusions:** Prediction intervals contradict confidence intervals in 70% of statistically significant Cochrane meta-analyses. Current practice of reporting only confidence intervals creates a "prediction gap" — clinicians and guideline panels are given false reassurance that a treatment effect established "on average" will apply in their clinical setting. Routine reporting of prediction intervals alongside confidence intervals should be mandatory.
 
@@ -80,12 +82,12 @@ The false reassurance rate varied with heterogeneity:
 
 | I-squared band | n significant | n false reassurance | % false reassurance |
 |---|---|---|---|
-| 0-25% | 71 | 32 | 45.1% |
-| 25-50% | 38 | 30 | 78.9% |
-| 50-75% | 44 | 38 | 86.4% |
-| 75-100% | 36 | 32 | 88.9% |
+| 0-25% | 78 | 33 | 42.3% |
+| 25-50% | 36 | 29 | 80.6% |
+| 50-75% | 43 | 41 | 95.3% |
+| 75-100% | 32 | 29 | 90.6% |
 
-Even at low heterogeneity (I-squared < 25%), 45% of significant CIs were contradicted by their PIs, driven by the additional uncertainty from the t-distribution and small k.
+Even at low heterogeneity (I-squared < 25%), 42% of significant CIs were contradicted by their PIs, driven by the additional uncertainty from the t-distribution and small k.
 
 ## Discussion
 
@@ -107,11 +109,27 @@ This finding has immediate implications for how meta-analyses are reported and i
 
 ### Strengths and limitations
 
-This is the first large-scale quantification of PI-CI discordance across hundreds of real meta-analyses. Limitations include: (1) PIs assume normally distributed random effects, which may not hold; (2) for small k, PIs are very wide due to the t-distribution, potentially overstating the gap; (3) the DL estimator may underestimate tau-squared, which would underestimate the true prediction gap.
+This is the first large-scale quantification of PI-CI discordance across hundreds of real meta-analyses. Our DerSimonian-Laird pooled estimates were validated against the R `metafor` package (v4.8-0) with agreement within 10^-4 across 10 randomly selected reviews. Prediction intervals were computed using t_{k-2} degrees of freedom following Riley et al. [2]; metafor uses t_{k-1} by default, producing slightly narrower PIs, particularly for small k. This methodological choice makes our false reassurance rates conservative (higher) compared to the metafor convention. Limitations include: (1) PIs assume normally distributed random effects, which may not hold; (2) for small k, PIs are very wide due to the t-distribution, potentially overstating the gap; (3) the DL estimator may underestimate tau-squared, which would underestimate the true prediction gap.
 
 ## Conclusions
 
 Prediction intervals include the null in 70% of Cochrane meta-analyses where the confidence interval does not. Only 14% of all reviews provide concordant evidence that the treatment effect will apply in new settings. Routine reporting of prediction intervals should become standard practice.
+
+## Data availability statement
+
+The Pairwise70 dataset is available from [ZENODO_DOI_PLACEHOLDER]. The analysis code, all output data, and an interactive dashboard are available at [GITHUB_URL_PLACEHOLDER].
+
+## Funding
+
+[FUNDING_PLACEHOLDER]
+
+## Competing interests
+
+All authors have completed the ICMJE uniform disclosure form and declare: no support from any organisation for the submitted work; no financial relationships with any organisations that might have an interest in the submitted work; no other relationships or activities that could appear to have influenced the submitted work.
+
+## Patient and public involvement
+
+No patients or members of the public were involved in the design or conduct of this study.
 
 ## References
 
