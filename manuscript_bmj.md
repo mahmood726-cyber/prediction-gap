@@ -117,15 +117,15 @@ Prediction intervals include the null in 70% of Cochrane meta-analyses where the
 
 ## Data availability statement
 
-The Pairwise70 dataset is available from [ZENODO_DOI_PLACEHOLDER]. The analysis code, all output data, and an interactive dashboard are available at https://github.com/mahmood726-cyber/prediction-gap.
+The Pairwise70 dataset is currently available at https://github.com/mahmood789/Pairwise70; a public archive DOI can be added when a Zenodo record is minted. The analysis code, all output data, and an interactive dashboard are available at https://github.com/mahmood726-cyber/prediction-gap.
 
 ## Funding
 
-[FUNDING_PLACEHOLDER]
+No funding information is recorded in the current project files; update this section at submission if applicable.
 
 ## Competing interests
 
-All authors have completed the ICMJE uniform disclosure form and declare: no support from any organisation for the submitted work; no financial relationships with any organisations that might have an interest in the submitted work; no other relationships or activities that could appear to have influenced the submitted work.
+The author declares no support from any organisation for the submitted work, no financial relationships with organisations that might have an interest in the submitted work, and no other relationships or activities that could appear to have influenced the work.
 
 ## Patient and public involvement
 

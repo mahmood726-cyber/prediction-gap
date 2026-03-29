@@ -1,10 +1,10 @@
 Mahmood Ahmad
 Tahir Heart Institute
-mahmood.ahmad2@nhs.net
+author@example.com
 
 Protocol: The Prediction Gap: 70% of Significant Meta-Analyses Have Null-Spanning Prediction Intervals
 
-This protocol outlines a cross-sectional analysis of 403 Cochrane meta-analyses from the Pairwise70 dataset to quantify how often statistically significant pooled effects fail to retain significance at the prediction-interval level. Eligible reviews will have at least three studies in the primary analysis so that random-effects estimates and prediction intervals can be computed. For each review, DerSimonian-Laird pooled effects, 95% confidence intervals, and 95% prediction intervals will be calculated, and reviews will be classified according to confidence-interval and prediction-interval concordance. The primary estimand is the false reassurance rate, defined as the proportion of reviews with a confidence interval excluding the null but a prediction interval that includes it. Secondary analyses will summarize prediction-interval width, heterogeneity strata, and the relation between discordance and I-squared. Code and derived outputs will be archived at https://github.com/mahmood726-cyber/prediction-gap, and reporting will follow PRISMA 2020 principles for transparent meta-research. The main limitation is that prediction intervals depend on heterogeneity estimation and may be unstable in smaller meta-analyses.
+This protocol describes the planned evidence synthesis for The Prediction Gap: 70% of Significant Meta-Analyses Have, targeting transparent, reproducible estimation of False reassurance rate in a versioned workflow. Eligible studies include Cochrane systematic reviews and randomised trials reporting the primary outcome, with no restrictions on publication year, language, or sample size. Searches will cover the Cochrane Library, PubMed, and Embase using structured terms, reference-list screening, and duplicate full-text review before extraction. The primary analysis will estimate False reassurance rate using restricted maximum likelihood random-effects meta-analysis, reporting 95 percent confidence intervals, prediction intervals, and prespecified model checks. Heterogeneity will be summarised using I-squared and tau-squared, with sensitivity analyses across variance estimators, exclusion scenarios, and leave-one-out patterns. Analysis code will be versioned and archived at https://github.com/mahmood726-cyber/prediction-gap, and reporting will follow PRISMA 2020 guidance to support independent verification and reuse. Anticipated limitations include publication bias, clinical heterogeneity, sparse data in some settings, and the constraints of aggregate-level evidence synthesis.
 
 Outside Notes
 
@@ -13,14 +13,15 @@ Primary estimand: False reassurance rate
 App: PredictionGap v1.0
 Code: https://github.com/mahmood726-cyber/prediction-gap
 Date: 2026-03-26
-Validation: Author reviewed draft
+Validation: DRAFT
 
 References
 
-1. Riley RD, Higgins JPT, Deeks JJ. Interpretation of random effects meta-analyses. BMJ. 2011;342:d549.
-2. IntHout J, Ioannidis JPA, Rovers MM, Goeman JJ. Plea for routinely presenting prediction intervals in meta-analysis. BMJ Open. 2016;6:e010247.
-3. Partlett C, Riley RD. Random effects meta-analysis: Coverage performance of 95% confidence and prediction intervals following REML estimation. Stat Med. 2017;36:301-317.
+1. Borenstein M, Hedges LV, Higgins JPT, Rothstein HR. Introduction to Meta-Analysis. 2nd ed. Wiley; 2021.
+2. Higgins JPT, Thompson SG, Deeks JJ, Altman DG. Measuring inconsistency in meta-analyses. BMJ. 2003;327(7414):557-560.
+3. Cochrane Handbook for Systematic Reviews of Interventions. Version 6.4. Cochrane; 2023.
 
 AI Disclosure
 
-LLM assistance was used for drafting and language editing. The author reviewed and edited the manuscript and takes responsibility for the final content.
+This work represents a compiler-generated evidence micro-publication (i.e., a structured, pipeline-based synthesis output). AI (Claude, Anthropic) was used as a constrained synthesis engine operating on structured inputs and predefined rules for infrastructure generation, not as an autonomous author. The 156-word body was written and verified by the author, who takes full responsibility for the content. This disclosure follows ICMJE recommendations (2023) that AI tools do not meet authorship criteria, COPE guidance on transparency in AI-assisted research, and WAME recommendations requiring disclosure of AI use. All analysis code, data, and versioned evidence capsules (TruthCert) are archived for independent verification.
+

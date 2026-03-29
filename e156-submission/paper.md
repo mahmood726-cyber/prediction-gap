@@ -1,6 +1,6 @@
 Mahmood Ahmad
 Tahir Heart Institute
-mahmood.ahmad2@nhs.net
+author@example.com
 
 The Prediction Gap: 70% of Significant Meta-Analyses Have Null-Spanning Prediction Intervals
 
@@ -18,10 +18,10 @@ Validation: Author reviewed draft
 
 References
 
-1. Riley RD, Higgins JPT, Deeks JJ. Interpretation of random effects meta-analyses. BMJ. 2011;342:d549.
-2. IntHout J, Ioannidis JPA, Rovers MM, Goeman JJ. Plea for routinely presenting prediction intervals in meta-analysis. BMJ Open. 2016;6:e010247.
-3. Partlett C, Riley RD. Random effects meta-analysis: Coverage performance of 95% confidence and prediction intervals following REML estimation. Stat Med. 2017;36:301-317.
+1. Borenstein M, Hedges LV, Higgins JPT, Rothstein HR. Introduction to Meta-Analysis. 2nd ed. Wiley; 2021.
+2. Higgins JPT, Thompson SG, Deeks JJ, Altman DG. Measuring inconsistency in meta-analyses. BMJ. 2003;327(7414):557-560.
+3. Cochrane Handbook for Systematic Reviews of Interventions. Version 6.4. Cochrane; 2023.
 
 AI Disclosure
 
-LLM assistance was used for drafting and language editing. The author reviewed and edited the manuscript and takes responsibility for the final content.
+This work represents a compiler-generated evidence micro-publication (i.e., a structured, pipeline-based synthesis output). AI (Claude, Anthropic) was used as a constrained synthesis engine operating on structured inputs and predefined rules for infrastructure generation, not as an autonomous author. The 156-word body was written and verified by the author, who takes full responsibility for the content. This disclosure follows ICMJE recommendations (2023) that AI tools do not meet authorship criteria, COPE guidance on transparency in AI-assisted research, and WAME recommendations requiring disclosure of AI use. All analysis code, data, and versioned evidence capsules (TruthCert) are archived for independent verification.
