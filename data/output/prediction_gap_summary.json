@@ -1,24 +1,24 @@
 {
-  "n_reviews": 403,
+  "n_reviews": 473,
   "classification_counts": {
-    "FALSE_REASSURANCE": 132,
-    "CONCORDANT_SIG": 57,
-    "CONCORDANT_NS": 214,
+    "FALSE_REASSURANCE": 156,
+    "CONCORDANT_SIG": 61,
+    "CONCORDANT_NS": 256,
     "HIDDEN_SIGNAL": 0
   },
-  "n_significant": 189,
-  "n_false_reassurance": 132,
-  "pct_false_reassurance": 69.8,
+  "n_significant": 217,
+  "n_false_reassurance": 156,
+  "pct_false_reassurance": 71.9,
   "pi_ci_ratio": {
-    "mean": 3.12,
-    "median": 2.62,
+    "mean": 3.14,
+    "median": 2.63,
     "q25": 1.62,
-    "q75": 3.46
+    "q75": 3.56
   },
   "I2_distribution": {
-    "mean": 31.2,
-    "pct_above_50": 30.8,
-    "pct_above_75": 11.9
+    "mean": 31.5,
+    "pct_above_50": 30.7,
+    "pct_above_75": 12.5
   },
-  "elapsed_seconds": 0.5
+  "elapsed_seconds": 0.2
 }

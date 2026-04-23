@@ -1,7 +1,13 @@
 """Tests for Prediction Gap pipeline."""
-import sys, math, numpy as np, pytest
+import sys, math
+from pathlib import Path
+from types import SimpleNamespace
+
+import numpy as np
+import pytest
+
 sys.path.insert(0, str(__import__('pathlib').Path(__file__).parent.parent))
-from src.pipeline import compute_prediction_interval, classify_discordance
+from src.pipeline import compute_prediction_interval, classify_discordance, run_pipeline, resolve_paths
 
 
 class TestPI:
@@ -157,6 +163,31 @@ class TestPIProperties:
             r = compute_prediction_interval(yi, sei)
             if r is not None:
                 assert r['ci_lo'] <= r['theta'] <= r['ci_hi']
+
+
+def test_run_pipeline_uses_repo_relative_sibling_projects(tmp_path, monkeypatch):
+    projects_root = tmp_path / 'projects'
+    project_root = projects_root / 'PredictionGap'
+    project_root.mkdir(parents=True)
+
+    paths = resolve_paths(project_root=project_root, projects_root=projects_root)
+    paths['pairwise_dir'].mkdir(parents=True, exist_ok=True)
+
+    synthetic_review = SimpleNamespace(
+        review_id='CD000001',
+        analysis_name='Synthetic review',
+        yi=np.array([-0.5, -0.4, -0.3, -0.2, -0.1]),
+        sei=np.array([0.1, 0.1, 0.1, 0.1, 0.1]),
+        scale='ratio',
+    )
+    monkeypatch.setattr('src.pipeline.load_all_reviews', lambda pairwise_dir, min_k=3: [synthetic_review])
+
+    results, summary = run_pipeline(project_root=project_root, projects_root=projects_root)
+
+    assert len(results) == 1
+    assert summary['n_reviews'] == 1
+    assert (project_root / 'data' / 'output' / 'prediction_gap_results.csv').exists()
+    assert (project_root / 'data' / 'output' / 'prediction_gap_summary.json').exists()
 
 
 if __name__ == '__main__':
