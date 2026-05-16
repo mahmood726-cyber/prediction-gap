@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title>Prediction Gap favicon</title>
+  <rect width="64" height="64" rx="14" fill="#FDFCFA"/>
+  <rect x="10" y="10" width="44" height="44" rx="12" fill="#ffffff" stroke="#E5E0D6" stroke-width="2"/>
+  <path d="M20 38h24" fill="none" stroke="#7A5A10" stroke-linecap="round" stroke-width="4"/>
+  <path d="M24 24l8 8 12-12" fill="none" stroke="#2E86C1" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <text x="32" y="54" fill="#7A5A10" font-family="Georgia, serif" font-size="12" font-weight="700" text-anchor="middle">PG</text>
+</svg>
