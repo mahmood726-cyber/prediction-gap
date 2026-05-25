@@ -8,14 +8,14 @@ For each review, computes:
 Usage: python -m src.pipeline
 """
 
-import sys
-import json
 import csv
-import time
+import json
 import math
 import os
-import numpy as np
+import time
 from pathlib import Path
+
+import numpy as np
 from scipy import stats
 
 from src.loader import load_all_reviews
@@ -90,12 +90,11 @@ def classify_discordance(result, scale):
 
     if ci_excludes_null and not pi_excludes_null:
         return 'FALSE_REASSURANCE'  # CI says significant, PI says maybe not
-    elif not ci_excludes_null and pi_excludes_null:
+    if not ci_excludes_null and pi_excludes_null:
         return 'HIDDEN_SIGNAL'  # rare: PI narrower than CI (shouldn't happen)
-    elif ci_excludes_null and pi_excludes_null:
+    if ci_excludes_null and pi_excludes_null:
         return 'CONCORDANT_SIG'  # both agree: significant
-    else:
-        return 'CONCORDANT_NS'  # both agree: not significant
+    return 'CONCORDANT_NS'  # both agree: not significant
 
 
 def resolve_paths(project_root=None, projects_root=None, pairwise_dir=None, output_dir=None):
@@ -235,10 +234,10 @@ def run_pipeline(pairwise_dir=None, output_dir=None, project_root=None, projects
         pct = count / n * 100
         print(f"  {cat:22s}: {count:4d} ({pct:5.1f}%)")
     print()
-    print(f"  THE PREDICTION GAP:")
+    print("  THE PREDICTION GAP:")
     print(f"  Of {n_sig} reviews where the CI excludes the null,")
     print(f"  {n_false} ({pct_false:.1f}%) have prediction intervals that INCLUDE the null.")
-    print(f"  -> In these reviews, the treatment may not work in the next clinical setting.")
+    print("  -> In these reviews, the treatment may not work in the next clinical setting.")
     print()
     print(f"  Mean PI/CI width ratio: {summary['pi_ci_ratio']['mean']}x")
     print(f"  Median PI/CI width ratio: {summary['pi_ci_ratio']['median']}x")

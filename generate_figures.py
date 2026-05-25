@@ -3,17 +3,18 @@ Generate 4 publication-quality figures for PredictionGap BMJ manuscript.
 """
 
 import csv
-import json
-import sys
 import io
+import json
 import os
+import sys
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
 
 import matplotlib
+
 matplotlib.use('Agg')
-import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
+import matplotlib.pyplot as plt
 import numpy as np
 
 OUT_DIR = os.path.join(os.path.dirname(__file__), 'figures')
@@ -95,7 +96,7 @@ wedges, texts, autotexts = ax2.pie(
 for t in autotexts:
     t.set_fontweight('bold')
     t.set_fontsize(12)
-ax2.set_title(f'Among 189 Significant Reviews:\nThe Prediction Gap', fontsize=12, pad=10)
+ax2.set_title('Among 189 Significant Reviews:\nThe Prediction Gap', fontsize=12, pad=10)
 
 plt.tight_layout()
 fig.savefig(os.path.join(OUT_DIR, 'figure1_classification.png'), dpi=300, bbox_inches='tight')

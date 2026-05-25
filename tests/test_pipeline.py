@@ -1,13 +1,18 @@
 """Tests for Prediction Gap pipeline."""
-import sys, math
-from pathlib import Path
+import math
+import sys
 from types import SimpleNamespace
 
 import numpy as np
 import pytest
 
 sys.path.insert(0, str(__import__('pathlib').Path(__file__).parent.parent))
-from src.pipeline import compute_prediction_interval, classify_discordance, run_pipeline, resolve_paths
+from src.pipeline import (
+    classify_discordance,
+    compute_prediction_interval,
+    resolve_paths,
+    run_pipeline,
+)
 
 
 class TestPI:
