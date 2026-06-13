@@ -179,16 +179,17 @@ function parseCSV(text) {
     const vals = lines[i].split(',');
     const row = {};
     headers.forEach((h, j) => row[h.trim()] = vals[j] ? vals[j].trim() : '');
-    row.k = parseInt(row.k) || 0;
-    row.theta = parseFloat(row.theta) || 0;
-    row.ci_lo = parseFloat(row.ci_lo) || 0;
-    row.ci_hi = parseFloat(row.ci_hi) || 0;
-    row.pi_lo = parseFloat(row.pi_lo) || 0;
-    row.pi_hi = parseFloat(row.pi_hi) || 0;
-    row.tau2 = parseFloat(row.tau2) || 0;
-    row.I2 = parseFloat(row.I2) || 0;
-    row.pi_ci_ratio = parseFloat(row.pi_ci_ratio) || 0;
-    row.p_value = parseFloat(row.p_value) || 0;
+    const numOr0 = (v) => { const n = parseFloat(v); return Number.isFinite(n) ? n : 0; };
+    row.k = (() => { const n = parseInt(row.k, 10); return Number.isFinite(n) ? n : 0; })();
+    row.theta = numOr0(row.theta);
+    row.ci_lo = numOr0(row.ci_lo);
+    row.ci_hi = numOr0(row.ci_hi);
+    row.pi_lo = numOr0(row.pi_lo);
+    row.pi_hi = numOr0(row.pi_hi);
+    row.tau2 = numOr0(row.tau2);
+    row.I2 = numOr0(row.I2);
+    row.pi_ci_ratio = numOr0(row.pi_ci_ratio);
+    row.p_value = numOr0(row.p_value);
     DATA.push(row);
   }
   FILTERED = [...DATA];

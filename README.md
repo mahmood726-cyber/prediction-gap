@@ -8,7 +8,7 @@ Can the pooled effect from a statistically significant meta-analysis be expected
 
 ## Run
 
-Open `index.html` (or `index.html`) in any modern browser. No build step.
+Open `dashboard/index.html` (or the `index.html` landing page) in any modern browser. No build step.
 
 For local development:
 
@@ -29,7 +29,7 @@ The suite under `tests/` includes 1 test file(s).
 
 | Path | Purpose |
 |---|---|
-| `index.html` | the dashboard (main artifact) |
+| `dashboard/index.html` | the interactive dashboard (main artifact) |
 | `index.html` | landing page |
 | `tests/` | pytest tests |
 | `e156-submission/` | E156 micro-paper bundle |
